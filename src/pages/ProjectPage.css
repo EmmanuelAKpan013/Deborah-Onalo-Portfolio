@@ -1,0 +1,56 @@
+.projectPage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-header {
+  /* position: absolute; */
+  /* height: 58px; */
+  /* left: 590px; */
+  /* top: 173px; */
+
+  /* line-height: 120%; */
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 60px;
+  width: auto;
+  color: #664500;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.project-lists {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  /* width: 1260px; */
+  /* left: 72px; */
+  /* top: 283px; */
+  margin-top: 10px;
+  padding-left: 70px;
+  height: auto;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  /* line-height: 70px; */
+  border: 1px solid red;
+
+  color: #664500;
+}
+
+.project-list {
+  width: 1400px;
+  border-bottom: 0.3px solid #664500;
+  padding: 40px 0;
+}
+.project-list p {
+  cursor: pointer;
+}
+
+.project-list:nth-child(5) {
+  border-bottom: none;
+  padding: 20px 0;
+}
