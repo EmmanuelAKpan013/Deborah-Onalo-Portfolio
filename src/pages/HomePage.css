@@ -18,26 +18,18 @@
   position: absolute;
   width: 1059px;
   height: 170px;
-  left: 255px;
+  left: 258px;
   top: 350px;
-  /* font-family: "Argue DEMO"; */
-  /* font-style: normal; */
-  /* font-weight: 400; */
-  /* font-size: 128px; */
-  /* line-height: 170px; */
 }
 
 .designer-name {
   position: absolute;
-  width: 228px;
-  height: 36px;
-  left: 666px;
-  top: 870px;
+  left: 669px;
+  top: 740px;
   color: #6c4013;
   text-align: center;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 150%;
 }
