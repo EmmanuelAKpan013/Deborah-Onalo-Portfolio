@@ -70,7 +70,7 @@ function NomadPage() {
         </div>
       </div>
 
-      <div className="macbook-pro">
+      {/* <div className="macbook-pro">
         <img src={macbook} alt="" className="macbook" />
         <img src={macbookContent} alt="" className="macbook-content" />
       </div>
@@ -611,7 +611,7 @@ function NomadPage() {
         <div className="nomad-pagination-container">
           <Pagination />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -1,41 +1,46 @@
 .container {
+  display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  width: 1585px;
   height: 515px;
-  left: 0px;
-  right: 0;
-  top: 115px;
+  /* margin-top: 0px; */
+  /* border: 1px solid red; */
+  /* position: relative; */
+  /* width: 1585px; */
+  /* left: 0px; */
+  /* right: 0; */
+  /* top: 115px; */
 }
 
 .nomad-logo {
   position: absolute;
+  margin-top: -2px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1585px;
+  width: 1600px;
   height: 515px;
-  left: 0;
-  top: 0;
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
+  /* left: 0; */
+  /* top: 0; */
 }
 
 .imgContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
   width: 1585px;
   height: 515px;
-  left: 0px;
-  right: 0;
-  top: 1px;
+  /* margin-top: 10px; */
+  /* position: absolute; */
+  /* left: 0px; */
+  /* right: 0; */
+  /* top: 0px; */
 }
 
 .img-1 img {
-  width: 396px;
+  width: 412px;
   height: 515px;
 }
 
