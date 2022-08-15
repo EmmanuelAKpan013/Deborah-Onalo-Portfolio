@@ -24,7 +24,6 @@ function Navbar() {
           <div className="resume-bar">Resume</div>
         </a>
       </div>
-      {/* <hr className="navbar-horizontal-line"></hr> */}
     </>
   );
 }

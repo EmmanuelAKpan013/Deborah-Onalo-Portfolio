@@ -38,15 +38,6 @@
   top: 58px;
 }
 
-.navbar-horizontal-line {
-  position: absolute;
-  width: 1585px;
-  height: 0px;
-  left: 0px;
-  top: 114px;
-  border: 1px solid #6c4013;
-}
-
 .link {
   color: #6c4013;
 }
