@@ -156,7 +156,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/* <div className="research">
+      <div className="research">
         <div className="research-header-and-image">
           <div className="research-header">
             <h4>03</h4>
@@ -265,7 +265,7 @@ function NomadPage() {
       <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
       </div>
-      <div className="website-section">
+      {/*<div className="website-section">
         <div className="section-header-container">
           <div className="website-section-header">
             <h4>05</h4>

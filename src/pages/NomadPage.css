@@ -257,11 +257,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
+  /* position: absolute; */
+  width: 1600px;
   height: 793px;
-  left: 0px;
-  top: 3130px;
+  /* left: 0px; */
+  /* top: 3130px; */
   /* border: 1px solid red; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
 }
@@ -370,11 +370,11 @@
 }
 
 .persona {
-  position: absolute;
-  width: 1585px;
+  position: relative;
+  width: 1600px;
   height: 790px;
-  left: 0px;
-  top: 3923px;
+  /* left: 0px; */
+  /* top: 3923px; */
   color: #ffffff;
 
   background: #051045;
@@ -467,15 +467,15 @@
 }
 
 .girl-image {
-  position: absolute;
-  width: 1585px;
+  /* position: absolute; */
+  width: 1600px;
   height: 680px;
-  left: 0px;
-  top: 4712px;
+  /* left: 0px; */
+  /* top: 4712px; */
 }
 
 .girl-image > img {
-  width: 1585px;
+  width: 1600px;
   height: 600px;
   object-fit: cover;
 }
