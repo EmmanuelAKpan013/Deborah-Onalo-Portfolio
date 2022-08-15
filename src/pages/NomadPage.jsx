@@ -48,7 +48,6 @@ function NomadPage() {
           </div>
         </div>
       </div>
-
       <div className="roleContainer">
         <div className="roleContent">
           <h3>ROLE</h3>
@@ -69,12 +68,10 @@ function NomadPage() {
           <p>2021 - Present</p>
         </div>
       </div>
-
-      {/* <div className="macbook-pro">
+      <div className="macbook-pro">
         <img src={macbook} alt="" className="macbook" />
         <img src={macbookContent} alt="" className="macbook-content" />
       </div>
-
       <div className="background-section">
         <div className="background-large-text">
           <h4>01</h4>
@@ -121,7 +118,6 @@ function NomadPage() {
           </div>
         </div>
       </div>
-
       <div className="work-overview">
         <div className="work-over-text">
           <h4>02</h4>
@@ -160,7 +156,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      <div className="research">
+      {/* <div className="research">
         <div className="research-header-and-image">
           <div className="research-header">
             <h4>03</h4>
@@ -205,7 +201,6 @@ function NomadPage() {
           </div>
         </div>
       </div>
-
       <div className="persona">
         <h2>Persona</h2>
         <div className="persona-image-description">
@@ -267,11 +262,9 @@ function NomadPage() {
           </div>
         </div>
       </div>
-
       <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
       </div>
-
       <div className="website-section">
         <div className="section-header-container">
           <div className="website-section-header">
@@ -611,7 +604,8 @@ function NomadPage() {
         <div className="nomad-pagination-container">
           <Pagination />
         </div>
-      </div> */}
+      </div>{" "}
+      */}
     </>
   );
 }

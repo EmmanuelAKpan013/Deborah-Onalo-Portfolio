@@ -21,7 +21,7 @@
   width: 1600px;
   height: 515px;
   background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
+  /* z-index: 1; */
   /* left: 0; */
   /* top: 0; */
 }
@@ -63,14 +63,18 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
+  /* position: absolute; */
+  margin-top: -1px;
+  width: 1600px;
+
+  /* width: 1585px; */
   height: 199px;
-  left: 0px;
-  top: 630px;
+  /* left: 0px; */
+  /* top: 630px; */
   color: white;
   background: #1c1b1b;
   font-family: "Circular Std", sans-serif;
+  /* border: 1px solid red; */
 }
 
 .roleContent {
@@ -90,10 +94,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 1585px;
+  width: 1600px;
   height: 816px;
-  left: 0px;
-  top: 310px;
+  /* left: 0px; */
+  /* top: 310px; */
   background: #051045;
 }
 
@@ -101,7 +105,7 @@
   position: absolute;
   width: 734.5px;
   height: 486px;
-  left: 400px;
+  left: 425px;
   top: 170px;
 }
 
@@ -109,19 +113,19 @@
   position: absolute;
   width: 628px;
   height: 393.75px;
-  left: 452px;
-  top: 223px;
+  left: 475px;
+  top: 195px;
 }
 
 .background-section {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
+  /* position: absolute; */
+  width: 1600px;
   height: 762px;
-  left: 0px;
-  top: 1623px;
+  /* left: 0px; */
+  /* top: 1623px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
   box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41);
 }
@@ -179,11 +183,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
+  /* position: absolute; */
+  width: 1600px;
   height: 750px;
-  left: 0px;
-  top: 2385px;
+  /* left: 0px; */
+  /* top: 2385px; */
   background: #051045;
   color: #ffffff;
 }
