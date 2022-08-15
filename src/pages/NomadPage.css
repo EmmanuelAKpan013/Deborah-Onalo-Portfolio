@@ -3,13 +3,6 @@
   align-items: center;
   justify-content: center;
   height: 515px;
-  /* margin-top: 0px; */
-  /* border: 1px solid red; */
-  /* position: relative; */
-  /* width: 1585px; */
-  /* left: 0px; */
-  /* right: 0; */
-  /* top: 115px; */
 }
 
 .nomad-logo {
@@ -21,9 +14,6 @@
   width: 1600px;
   height: 515px;
   background: rgba(0, 0, 0, 0.7);
-  /* z-index: 1; */
-  /* left: 0; */
-  /* top: 0; */
 }
 
 .imgContainer {
@@ -32,11 +22,6 @@
   justify-content: center;
   width: 1585px;
   height: 515px;
-  /* margin-top: 10px; */
-  /* position: absolute; */
-  /* left: 0px; */
-  /* right: 0; */
-  /* top: 0px; */
 }
 
 .img-1 img {
@@ -63,18 +48,13 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
   margin-top: -1px;
   width: 1600px;
 
-  /* width: 1585px; */
   height: 199px;
-  /* left: 0px; */
-  /* top: 630px; */
   color: white;
   background: #1c1b1b;
   font-family: "Circular Std", sans-serif;
-  /* border: 1px solid red; */
 }
 
 .roleContent {
@@ -82,7 +62,6 @@
   height: 120px;
   padding: 10px;
   line-height: 24px;
-  /* font-family: "Circular Std"; */
 }
 
 .year {
@@ -96,8 +75,6 @@
   position: relative;
   width: 1600px;
   height: 816px;
-  /* left: 0px; */
-  /* top: 310px; */
   background: #051045;
 }
 
@@ -121,11 +98,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
   width: 1600px;
   height: 762px;
-  /* left: 0px; */
-  /* top: 1623px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
   box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41);
 }
@@ -171,23 +145,18 @@
 
 .para-1 {
   padding: 0px 20px 20px 8px;
-  /* line-height: 32px; */
 }
 
 .para-2 {
   padding: 0px 20px 20px 20px;
-  /* line-height: 32px; */
 }
 
 .work-overview {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
   width: 1600px;
   height: 750px;
-  /* left: 0px; */
-  /* top: 2385px; */
   background: #051045;
   color: #ffffff;
 }
@@ -257,12 +226,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
   width: 1600px;
   height: 793px;
-  /* left: 0px; */
-  /* top: 3130px; */
-  /* border: 1px solid red; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
 }
 
@@ -272,8 +237,6 @@
   width: 40%;
   position: relative;
   left: 45px;
-  /* border: 1px solid red; */
-  /* object-fit: contain; */
 }
 
 .research-header h4 {
@@ -293,21 +256,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  /* align-items: center;
-  justify-content: center; */
-
-  /* border: 1px solid red; */
 }
 
 .research-image > div {
   display: grid;
   grid-auto-rows: 230px;
   width: auto;
-  /* height: 200px; */
-  /* border: 1px solid green; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background: red; */
   color: #ffffff;
 }
 
@@ -330,22 +284,15 @@
 }
 
 .research-para {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
   position: relative;
   top: 80px;
   right: 20px;
   width: 30%;
   color: #e0e0e0;
-  /* border: 1px solid red; */
-  /* padding: 10px; */
   line-height: 24px;
 }
 
 .interview {
-  /* border: 1px solid red; */
   height: 180px;
   margin: 0px 0 10px 0;
 }
@@ -373,8 +320,6 @@
   position: relative;
   width: 1600px;
   height: 790px;
-  /* left: 0px; */
-  /* top: 3923px; */
   color: #ffffff;
 
   background: #051045;
@@ -467,11 +412,8 @@
 }
 
 .girl-image {
-  /* position: absolute; */
   width: 1600px;
   height: 680px;
-  /* left: 0px; */
-  /* top: 4712px; */
 }
 
 .girl-image > img {
@@ -485,8 +427,6 @@
   width: 1600px;
   height: 1800px;
   margin-top: -80px;
-  /* left: 0px; */
-  /* top: 5312px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
 }
 
@@ -562,11 +502,6 @@
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   width: 500px;
-  /* border: 1px solid red; */
-
-  /* font-weight: 700; */
-  /* font-size: 23px; */
-  /* line-height: 27px; */
   color: #000000;
 }
 
