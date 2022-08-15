@@ -1,4 +1,43 @@
-.designer {
-  background-color: blue;
-  height: 100px;
+.designer-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.designer-image {
+  position: absolute;
+  width: 370px;
+  height: 636px;
+  left: 593px;
+  top: 80px;
+  background: url("../images/designerImage.png");
+  border-radius: 150px;
+}
+
+.designer-text {
+  position: absolute;
+  width: 1059px;
+  height: 170px;
+  left: 255px;
+  top: 350px;
+  /* font-family: "Argue DEMO"; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 128px; */
+  /* line-height: 170px; */
+}
+
+.designer-name {
+  position: absolute;
+  width: 228px;
+  height: 36px;
+  left: 666px;
+  top: 870px;
+  color: #6c4013;
+  text-align: center;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
 }
