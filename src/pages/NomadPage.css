@@ -1,0 +1,778 @@
+.container {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1585px;
+  height: 515px;
+  left: 0px;
+  right: 0;
+  top: 115px;
+}
+
+.nomad-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1585px;
+  height: 515px;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 1585px;
+  height: 515px;
+  left: 0px;
+  right: 0;
+  top: 1px;
+}
+
+.img-1 img {
+  width: 396px;
+  height: 515px;
+}
+
+.img-2 img {
+  width: 396px;
+  height: 515px;
+}
+
+.img-3 img {
+  width: 396px;
+  height: 515px;
+}
+
+.img-4 img {
+  width: 396px;
+  height: 515px;
+}
+
+.roleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 199px;
+  left: 0px;
+  top: 630px;
+  color: white;
+  background: #1c1b1b;
+  font-family: "Circular Std", sans-serif;
+}
+
+.roleContent {
+  width: auto;
+  height: 120px;
+  padding: 10px;
+  line-height: 24px;
+  /* font-family: "Circular Std"; */
+}
+
+.year {
+  font-family: "HK Grotesk", sans-serif;
+}
+
+.macbook-pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1585px;
+  height: 816px;
+  left: 0px;
+  top: 310px;
+  background: #051045;
+}
+
+.macbook {
+  position: absolute;
+  width: 734.5px;
+  height: 486px;
+  left: 400px;
+  top: 170px;
+}
+
+.macbook-content {
+  position: absolute;
+  width: 628px;
+  height: 393.75px;
+  left: 452px;
+  top: 223px;
+}
+
+.background-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 762px;
+  left: 0px;
+  top: 1623px;
+  background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
+  box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41);
+}
+
+.background-large-text {
+  position: relative;
+  top: -80px;
+  left: 45px;
+  width: 30%;
+  height: 400px;
+}
+
+.background-large-text h4 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #febc2c;
+}
+
+.background-large-text h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 84px;
+  color: #ffffff;
+}
+
+.background-paragraph {
+  position: relative;
+  right: 85px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  color: #ffffff;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.para-1 {
+  padding: 0px 20px 20px 8px;
+  /* line-height: 32px; */
+}
+
+.para-2 {
+  padding: 0px 20px 20px 20px;
+  /* line-height: 32px; */
+}
+
+.work-overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 750px;
+  left: 0px;
+  top: 2385px;
+  background: #051045;
+  color: #ffffff;
+}
+
+.work-over-text {
+  width: 30%;
+  height: 400px;
+  position: relative;
+  top: -63px;
+  left: 45px;
+}
+
+.work-over-text h4 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #febc2c;
+}
+
+.work-over-text h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 84px;
+}
+
+.work-over-text-para {
+  position: relative;
+  right: 30px;
+  width: 45%;
+  height: auto;
+  font-family: "Circular Std";
+  font-style: normal;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.fastr {
+  font-weight: 400;
+  font-size: 18px;
+  color: #cfcfcf;
+}
+
+.fastr > strong {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.solution {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #cfcfcf;
+}
+
+.solution h4 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.research {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 793px;
+  left: 0px;
+  top: 3130px;
+  /* border: 1px solid red; */
+  background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
+}
+
+.research-header-and-image {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  position: relative;
+  left: 45px;
+  /* border: 1px solid red; */
+  /* object-fit: contain; */
+}
+
+.research-header h4 {
+  font-size: 18px;
+  color: #febc2c;
+}
+
+.research-header h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 84px;
+}
+
+.research-image {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  /* align-items: center;
+  justify-content: center; */
+
+  /* border: 1px solid red; */
+}
+
+.research-image > div {
+  display: grid;
+  grid-auto-rows: 230px;
+  width: auto;
+  /* height: 200px; */
+  /* border: 1px solid green; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background: red; */
+  color: #ffffff;
+}
+
+.image-box > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.image-box-1 {
+  align-self: end;
+}
+
+.image-box-2 {
+  grid-column: 2;
+  grid-row: 1/3;
+}
+
+.manImage {
+  height: 473px;
+}
+
+.research-para {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  position: relative;
+  top: 80px;
+  right: 20px;
+  width: 30%;
+  color: #e0e0e0;
+  /* border: 1px solid red; */
+  /* padding: 10px; */
+  line-height: 24px;
+}
+
+.interview {
+  /* border: 1px solid red; */
+  height: 180px;
+  margin: 0px 0 10px 0;
+}
+
+.interview-line {
+  width: 32px;
+  border: 2px solid #f2f2f2;
+}
+
+.interview > h4 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.interview > p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.persona {
+  position: absolute;
+  width: 1585px;
+  height: 790px;
+  left: 0px;
+  top: 3923px;
+  color: #ffffff;
+
+  background: #051045;
+}
+
+.persona > h2 {
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.persona-image-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  right: 140px;
+}
+
+.persona-image > img {
+  border-radius: 50%;
+  margin: 20px 50px 0 10px;
+}
+
+.description {
+  margin: 20px 50px;
+  padding: 10px;
+}
+
+.description > h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.first-paragraph {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.second-paragraph {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 50%;
+  letter-spacing: 0.03em;
+  color: #febc2c;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  width: 439px;
+  height: 215px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.card > h3 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.card > ul {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 25px 15px;
+  color: #000000;
+}
+
+.girl-image {
+  position: absolute;
+  width: 1585px;
+  height: 680px;
+  left: 0px;
+  top: 4712px;
+}
+
+.girl-image > img {
+  width: 1585px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.website-section {
+  position: absolute;
+  width: 1585px;
+  height: 1800px;
+  left: 0px;
+  top: 5312px;
+  background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
+}
+
+.section-header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.website-section-header {
+  position: relative;
+  left: 40px;
+  top: 90px;
+  width: 30%;
+  height: 400px;
+}
+
+.website-section-header > h4 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #febc2c;
+}
+
+.website-section-header > h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  color: #ffffff;
+}
+
+.website-section-paragraph {
+  position: relative;
+  right: 40px;
+  top: 100px;
+  width: 40%;
+  height: 400px;
+  padding: 20px;
+}
+
+.para > h3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.para > p {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.website-section-table {
+  position: absolute;
+  width: 1350px;
+  height: 1150px;
+  left: 120px;
+  top: 550px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.website-section-table > h2 {
+  position: relative;
+  top: 70px;
+  left: 50px;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  width: 500px;
+  /* border: 1px solid red; */
+
+  /* font-weight: 700; */
+  /* font-size: 23px; */
+  /* line-height: 27px; */
+  color: #000000;
+}
+
+.chart {
+  /* border: 1px solid red; */
+  position: relative;
+  top: 120px;
+  left: 20px;
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 2rem;
+}
+
+.chart > button {
+  border-radius: 10px;
+  border: none;
+  height: 27px;
+  width: auto;
+  color: #ffffff;
+  background: linear-gradient(rgba(255, 140, 123, 0.96), #ff4a90);
+}
+
+.chart .empty {
+  visibility: hidden;
+}
+
+.chart-text-header {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-left: 40px;
+  color: #000000;
+}
+
+.chart-text {
+  /* border: 1px solid green; */
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px;
+
+  color: rgba(16, 16, 16, 0.6);
+}
+
+.wireframe-section {
+  position: relative;
+  width: 1585px;
+  height: 1339px;
+  top: 5780px;
+
+  background: #051045;
+}
+
+.wireframe-section > h2 {
+  position: absolute;
+  top: 70px;
+  left: 180px;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.wireframe-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
+
+.wireframeImage-4 {
+  background: #ffffff;
+}
+
+.high-fidelity-wireframe {
+  position: relative;
+  width: 1585px;
+  height: 2900px;
+  top: 5780px;
+  left: 0px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #040e43;
+}
+
+.high-fidelity-header {
+  position: relative;
+  left: 180px;
+  top: 50px;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  /* letter-spacing: 0.03em; */
+  color: #ffffff;
+}
+
+.high-fidelity-small-header {
+  position: relative;
+  left: 180px;
+  top: 60px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 24px; */
+  color: #ffffff;
+}
+
+.landing-page {
+  position: relative;
+  left: 160px;
+  top: 120px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 24px; */
+  color: #ffffff;
+}
+
+.landing-page-container {
+  position: relative;
+  left: 160px;
+  top: 130px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(200px, 1100px);
+  /* grid-auto-rows: auto; */
+
+  grid-gap: 2rem;
+  width: 1250px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+/* .landing-page-container > div { */
+/* background-color: #cfcfcf; */
+/* border: 1px solid red; */
+/* } */
+
+.landing-page-container > div > img {
+  width: 600px;
+  object-fit: contain;
+}
+
+/* .landingPage-image-2 > div {
+  border: 1px solid green;
+} */
+
+.landingPage-image-2 > div > img {
+  width: 600px;
+  /* height: 900px; */
+  object-fit: contain;
+}
+
+.landingPage-image-2 {
+  display: grid;
+  /* grid-row-gap: 0.5rem; */
+}
+
+.landingPage-image-2 > div > p {
+  margin: 15px 0 15px 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: start;
+
+  color: #ffffff;
+}
+
+.key-takeaway-section {
+  position: absolute;
+  width: 1585px;
+  height: 590px;
+  top: 11350px;
+  background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
+}
+
+.key-takeaway-section > h2 {
+  position: relative;
+  top: 50px;
+  left: 180px;
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  /* line-height: 64px; */
+  letter-spacing: 0.03rem;
+  color: #ffffff;
+}
+
+.key-takeaway-section > p {
+  position: relative;
+  top: 70px;
+  left: 180px;
+  width: 500px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.nomad-pagination-container {
+  position: relative;
+  top: 180px;
+}
