@@ -571,7 +571,6 @@
 }
 
 .chart {
-  /* border: 1px solid red; */
   position: relative;
   top: 120px;
   left: 20px;
@@ -605,7 +604,6 @@
 }
 
 .chart-text {
-  /* border: 1px solid green; */
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   font-weight: 400;
@@ -620,7 +618,6 @@
   position: relative;
   width: 1600px;
   height: 1339px;
-  /* top: 5780px; */
 
   background: #051045;
 }
@@ -654,8 +651,6 @@
   position: relative;
   width: 1600px;
   height: 2900px;
-  /* top: 5780px; */
-  /* left: 0px; */
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     #040e43;
 }
@@ -669,7 +664,6 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 64px;
-  /* letter-spacing: 0.03em; */
   color: #ffffff;
 }
 
@@ -681,7 +675,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  /* line-height: 24px; */
   color: #ffffff;
 }
 
@@ -693,7 +686,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  /* line-height: 24px; */
   color: #ffffff;
 }
 
@@ -704,11 +696,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(200px, 1100px);
-  /* grid-auto-rows: auto; */
 
   grid-gap: 2rem;
   width: 1250px;
-  /* border: 1px solid red; */
   text-align: center;
 }
 
