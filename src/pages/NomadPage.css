@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1585px;
+  width: 1600px;
   height: 515px;
   left: 0;
   top: 0;
@@ -47,18 +47,18 @@
 }
 
 .img-4 img {
-  width: 396px;
+  width: 425px;
   height: 515px;
 }
 
 .roleContainer {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: relative;
-  width: 1585px;
-  height: 199px;
-  margin: -17px 0 0 -2px;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* position: relative; */
+  /* width: 1585px; */
+  /* height: 199px; */
+  /* margin: -17px 0 0 -2px; */
   /* left: 0px; */
   /* top: 600px; */
   color: white;
@@ -67,17 +67,18 @@
   border: 1px solid;
 }
 
-.roleContent {
+/* .roleContent {
   width: auto;
   height: 120px;
   padding: 10px;
   line-height: 24px;
-  /* font-family: "Circular Std"; */
-}
+  comment the font-family later
+  font-family: "Circular Std";
+} */
 
-.year {
+/* .year {
   font-family: "HK Grotesk", sans-serif;
-}
+} */
 
 .macbook-pro {
   display: flex;
