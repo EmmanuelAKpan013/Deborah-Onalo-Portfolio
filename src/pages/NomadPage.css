@@ -55,7 +55,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
+  position: relative;
   width: 1585px;
   height: 199px;
   margin: -17px 0 0 -2px;
@@ -86,8 +86,7 @@
   position: relative;
   width: 1585px;
   height: 816px;
-  left: 0px;
-  top: 310px;
+  top: 195px;
   background: #051045;
 }
 
