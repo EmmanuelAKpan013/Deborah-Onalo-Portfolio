@@ -55,14 +55,16 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
+  /* position: absolute; */
   width: 1585px;
   height: 199px;
-  left: 0px;
-  top: 630px;
+  margin: -17px 0 0 -2px;
+  /* left: 0px; */
+  /* top: 600px; */
   color: white;
   background: #1c1b1b;
   font-family: "Circular Std", sans-serif;
+  border: 1px solid;
 }
 
 .roleContent {
