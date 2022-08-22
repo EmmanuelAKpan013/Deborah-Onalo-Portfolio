@@ -28,7 +28,6 @@ function NomadPage() {
   return (
     <>
       <Navbar />
-      {/* <p>text</p> */}
       <div className="container">
         <div className="nomad-logo">
           <img src={nomadLogo} alt="" />
