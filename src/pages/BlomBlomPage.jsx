@@ -10,7 +10,7 @@ import blomResearchImageThree from "../images/blomblom/leon-m2TU2gfqSeE-unsplash
 function BlomBlomPage() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <div className="blomLandingImageAndLogo">
         <div className="blomblomLandingImg">
           <img src={blomblomFirstImage} alt="" className="blomFirstImage" />
@@ -238,7 +238,7 @@ function BlomBlomPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
