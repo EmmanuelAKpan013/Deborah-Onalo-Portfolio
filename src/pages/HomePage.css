@@ -5,7 +5,8 @@
   align-items: center;
   flex-direction: column;
   margin-top: 80px;
-  border: 1px solid red;
+  height: 720px;
+  border: 1px solid blue;
 }
 
 .designer-image {
@@ -26,15 +27,16 @@
   top: -380px;
   border: 1px solid red;
 }
-/*
+
 .designer-name {
-  position: absolute;
-  left: 669px;
-  top: 740px;
+  position: relative;
+  left: -15px;
+  top: -100px;
   color: #6c4013;
   text-align: center;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-} */
+  border: 1px solid red;
+}
