@@ -1,34 +1,32 @@
 .nomad-landing-container {
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   position: relative;
-  width: 1600px;
-  height: 515px;
+  /* height: 515px; */
+  border: 1px solid red;
 }
 
-.nomad-logo {
+/* .nomad-logo {
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 1600px;
   height: 515px;
-  /* left: 0; */
-  /* top: 0; */
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
-}
+} */
 
 .nomad-imgContainer {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  width: 1585px;
-  height: 515px;
-  left: 0px;
-  right: 0;
-  top: 1px;
+  /* position: absolute; */
+  /* width: 1585px; */
+  /* height: 515px; */
+  /* left: 0px; */
+  /* right: 0; */
+  /* top: 1px; */
 }
 
 .img-1 img {
@@ -47,7 +45,7 @@
 }
 
 .img-4 img {
-  width: 425px;
+  width: 410px;
   height: 515px;
 }
 
