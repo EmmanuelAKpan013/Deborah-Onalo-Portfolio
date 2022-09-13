@@ -10,33 +10,29 @@
   height: 100px;
 }
 
-.logo {
+/* .logo {
   position: absolute;
   width: 40px;
   height: 60.84px;
   left: 110px;
   top: 35px;
-}
+} */
 
-.project-bar {
+/* .project-bar {
   position: absolute;
   width: 95px;
   height: 36px;
   left: 725px;
   top: 58px;
-}
+} */
 
 .resume-bar {
-  position: absolute;
-  width: 93px;
-  height: 36px;
   text-decoration: underline;
-  left: 1385px;
-  top: 58px;
 }
 
 .link {
   color: #6c4013;
+  text-decoration: none;
 }
 
 a {
