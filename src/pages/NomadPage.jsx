@@ -75,7 +75,7 @@ function NomadPage() {
           <img src={macbookContent} alt="" className="macbook-content" />
         </div>
       </div>
-      {/*
+
       <div className="background-section">
         <div className="background-large-text">
           <h4>01</h4>
@@ -122,7 +122,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
-
+      {/*
       <div className="work-overview">
         <div className="work-over-text">
           <h4>02</h4>
