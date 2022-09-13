@@ -50,7 +50,6 @@ function NomadPage() {
         </div>
       </div>
 
-      {/*
       <div className="roleContainer">
         <div className="roleContent">
           <h3>ROLE</h3>
@@ -71,7 +70,7 @@ function NomadPage() {
           <p>2021 - Present</p>
         </div>
       </div>
-
+      {/*
       <div className="macbook-pro">
         <img src={macbook} alt="" className="macbook" />
         <img src={macbookContent} alt="" className="macbook-content" />
