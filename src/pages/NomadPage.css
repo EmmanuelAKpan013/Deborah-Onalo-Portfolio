@@ -230,21 +230,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  /* align-items: center;
-  justify-content: center; */
-
-  /* border: 1px solid red; */
 }
 
 .research-image > div {
   display: grid;
   grid-auto-rows: 230px;
   width: auto;
-  /* height: 200px; */
-  /* border: 1px solid green; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background: red; */
   color: #ffffff;
 }
 
@@ -267,22 +258,15 @@
 }
 
 .research-para {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; */
   position: relative;
   top: 80px;
   right: 20px;
   width: 30%;
   color: #e0e0e0;
-  /* border: 1px solid red; */
-  /* padding: 10px; */
   line-height: 24px;
 }
 
 .interview {
-  /* border: 1px solid red; */
   height: 180px;
   margin: 0px 0 10px 0;
 }
@@ -307,18 +291,14 @@
 }
 
 .persona {
-  position: absolute;
-  width: 1585px;
+  position: relative;
   height: 790px;
-  left: 0px;
-  top: 3923px;
   color: #ffffff;
-
   background: #051045;
 }
 
 .persona > h2 {
-  position: absolute;
+  position: relative;
   top: 100px;
   left: 160px;
   font-family: "Argue DEMO";
@@ -381,7 +361,7 @@
   height: 215px;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
-  margin: 20px 10px;
+  margin: 20px 5px;
   padding: 20px;
 }
 

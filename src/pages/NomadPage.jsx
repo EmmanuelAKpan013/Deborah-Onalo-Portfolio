@@ -206,7 +206,6 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/*
 
       <div className="persona">
         <h2>Persona</h2>
@@ -269,6 +268,8 @@ function NomadPage() {
           </div>
         </div>
       </div>
+      {/*
+
 
       <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
