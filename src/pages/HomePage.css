@@ -1,12 +1,10 @@
 .designer-container {
-  /* text-align: center; */
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-top: 80px;
   height: 720px;
-  border: 1px solid blue;
 }
 
 .designer-image {
@@ -14,18 +12,15 @@
   width: 370px;
   height: 636px;
   left: -20px;
-  /* top: 80px; */
   background: url("../images/designerImage.png");
   border-radius: 150px;
 }
 
 .designer-text {
   position: relative;
-  /* width: 1059px; */
   height: 170px;
   left: 0px;
   top: -380px;
-  border: 1px solid red;
 }
 
 .designer-name {
@@ -38,5 +33,4 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  border: 1px solid red;
 }
