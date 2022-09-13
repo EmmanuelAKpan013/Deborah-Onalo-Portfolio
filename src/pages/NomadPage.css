@@ -1,12 +1,8 @@
 .nomad-landing-container {
-  /* align-items: center; */
-  /* justify-content: center; */
   position: relative;
-  /* height: 515px; */
-  border: 1px solid red;
 }
 
-/* .nomad-logo {
+.nomad-logo {
   position: absolute;
   display: flex;
   align-items: center;
@@ -15,7 +11,8 @@
   height: 515px;
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
-} */
+  /* border: 1px solid purple; */
+}
 
 .nomad-imgContainer {
   display: flex;
