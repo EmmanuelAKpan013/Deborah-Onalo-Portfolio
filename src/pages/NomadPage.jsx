@@ -5,8 +5,7 @@ import image1 from "../images/nomad/Rectangle 469.png";
 import image2 from "../images/nomad/Rectangle 498.png";
 import image3 from "../images/nomad/Rectangle 499.png";
 import image4 from "../images/nomad/Rectangle 500.png";
-import macbook from "../images/nomad/main.png";
-import macbookContent from "../images/nomad/15_ Macbook Pro Mockup Front view label.png";
+import macbookContent from "../images/nomad/15_ Macbook Pro Mockup Front view.png";
 import researchLadyOne from "../images/nomad/sigmund-YUuSAJkS3U4-unsplash.png";
 import researchLadyTwo from "../images/nomad/green-chameleon-s9CC2SKySJM-unsplash.png";
 import researchManOne from "../images/nomad/leon-m2TU2gfqSeE-unsplash 1.png";
@@ -70,11 +69,13 @@ function NomadPage() {
           <p>2021 - Present</p>
         </div>
       </div>
-      {/*
+
       <div className="macbook-pro">
-        <img src={macbook} alt="" className="macbook" />
-        <img src={macbookContent} alt="" className="macbook-content" />
+        <div>
+          <img src={macbookContent} alt="" className="macbook-content" />
+        </div>
       </div>
+      {/*
       <div className="background-section">
         <div className="background-large-text">
           <h4>01</h4>

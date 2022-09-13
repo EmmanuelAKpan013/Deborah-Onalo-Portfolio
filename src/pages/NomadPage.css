@@ -55,9 +55,9 @@
 .roleContent {
   width: auto;
   height: 120px;
+  margin: 30px;
   padding: 10px;
   line-height: 24px;
-  /* font-family: "Circular Std"; */
 }
 
 .year {
@@ -68,28 +68,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  width: 1585px;
+  margin-top: -1px;
   height: 816px;
-  top: 195px;
   background: #051045;
 }
 
-.macbook {
-  position: absolute;
-  width: 734.5px;
-  height: 486px;
-  left: 400px;
-  top: 170px;
-}
-
+/* 
 .macbook-content {
   position: absolute;
   width: 628px;
   height: 393.75px;
-  left: 452px;
-  top: 223px;
-}
+  left: 477px;
+  top: 190px;
+} */
 
 .background-section {
   display: flex;
