@@ -17,14 +17,17 @@
 .project-lists {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 30px;
-  padding-left: 70px;
+  /* padding-left: 70px; */
   height: auto;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   color: #664500;
+  border: 1px solid red;
 }
 
 .project-list {
