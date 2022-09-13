@@ -15,6 +15,7 @@ import wireframeImage1 from "../images/nomad/Group.png";
 import wireframeImage2 from "../images/nomad/Group2.png";
 import wireframeImage3 from "../images/nomad/Group3.png";
 import wireframeImage4 from "../images/nomad/Group4.png";
+import customerJourneyMap from "../images/nomad/Group 9413.png";
 import landingPageImageOne from "../images/nomad/Desktop - 32.png";
 import landingPageImageTwo from "../images/nomad/036.png";
 import landingPageImageThree from "../images/nomad/Welcome 8.png";
@@ -268,8 +269,6 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/*
-
 
       <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
@@ -309,7 +308,11 @@ function NomadPage() {
           </div>
         </div>
 
-        <div className="website-section-table">
+        <div className="nomad-website-section-table">
+          <img src={customerJourneyMap} alt="" />
+        </div>
+
+        {/* <div className="website-section-table">
           <h2>Customer Journey Map</h2>
           <div className="chart">
             <button className="btn empty">Empty</button>
@@ -540,7 +543,7 @@ function NomadPage() {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="wireframe-section">
         <h2>Wireframe</h2>
@@ -559,6 +562,8 @@ function NomadPage() {
           </div>
         </div>
       </div>
+      {/*
+
       <div className="high-fidelity-wireframe">
         <h2 className="high-fidelity-header">High Fidelity Wireframes</h2>
         <p className="high-fidelity-small-header">

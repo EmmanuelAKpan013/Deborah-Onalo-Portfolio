@@ -384,11 +384,9 @@
 }
 
 .girl-image {
-  position: absolute;
-  width: 1585px;
-  height: 680px;
-  left: 0px;
-  top: 4712px;
+  /* height: 605px; */
+  height: auto;
+  background: #838786;
 }
 
 .girl-image > img {
@@ -398,11 +396,15 @@
 }
 
 .website-section {
-  position: absolute;
-  width: 1585px;
-  height: 1800px;
-  left: 0px;
-  top: 5312px;
+  /* position: relative; */
+  /* width: 1585px; */
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* left: 0px; */
+  /* top: 5312px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
 }
 
@@ -461,7 +463,12 @@
   color: #ffffff;
 }
 
-.website-section-table {
+.nomad-website-section-table {
+  position: relative;
+  top: 190px;
+}
+
+/* .website-section-table {
   position: absolute;
   width: 1350px;
   height: 1150px;
@@ -469,25 +476,19 @@
   top: 550px;
   background: #ffffff;
   border-radius: 20px;
-}
+} */
 
-.website-section-table > h2 {
+/* .website-section-table > h2 {
   position: relative;
   top: 70px;
   left: 50px;
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   width: 500px;
-  /* border: 1px solid red; */
-
-  /* font-weight: 700; */
-  /* font-size: 23px; */
-  /* line-height: 27px; */
   color: #000000;
-}
+} */
 
-.chart {
-  /* border: 1px solid red; */
+/* .chart {
   position: relative;
   top: 120px;
   left: 20px;
@@ -495,22 +496,22 @@
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 2rem;
-}
+} */
 
-.chart > button {
+/* .chart > button {
   border-radius: 10px;
   border: none;
   height: 27px;
   width: auto;
   color: #ffffff;
   background: linear-gradient(rgba(255, 140, 123, 0.96), #ff4a90);
-}
+} */
 
-.chart .empty {
+/* .chart .empty {
   visibility: hidden;
-}
+} */
 
-.chart-text-header {
+/* .chart-text-header {
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   font-weight: 700;
@@ -518,10 +519,9 @@
   margin-top: 15px;
   margin-left: 40px;
   color: #000000;
-}
+} */
 
-.chart-text {
-  /* border: 1px solid green; */
+/* .chart-text {
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   font-weight: 400;
@@ -530,7 +530,7 @@
   padding: 10px;
 
   color: rgba(16, 16, 16, 0.6);
-}
+} */
 
 .wireframe-section {
   position: relative;
