@@ -28,12 +28,13 @@ function NomadPage() {
   return (
     <>
       <Navbar />
-      {/* <div className="container">
+
+      <div className="nomad-landing-container">
         <div className="nomad-logo">
           <img src={nomadLogo} alt="" />
         </div>
 
-        <div className="imgContainer">
+        <div className="nomad-imgContainer">
           <div className="nomadLandingImg img-1">
             <img src={image1} alt="" />
           </div>
@@ -49,6 +50,7 @@ function NomadPage() {
         </div>
       </div>
 
+      {/*
       <div className="roleContainer">
         <div className="roleContent">
           <h3>ROLE</h3>

@@ -1,4 +1,4 @@
-.container {
+.nomad-landing-container {
   align-items: center;
   justify-content: center;
   position: relative;
@@ -19,7 +19,7 @@
   z-index: 1;
 }
 
-.imgContainer {
+.nomad-imgContainer {
   display: flex;
   align-items: center;
   justify-content: center;
