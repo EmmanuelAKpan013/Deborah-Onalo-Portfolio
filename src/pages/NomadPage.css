@@ -12,7 +12,6 @@
   height: 515px;
   background: rgba(0, 0, 0, 0.7);
   z-index: 1;
-  /* border: 1px solid purple; */
 }
 
 .nomad-imgContainer {
@@ -77,13 +76,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
-  /* width: 1585px; */
   height: 762px;
-  /* left: 0px; */
-  /* top: 1623px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
-  /* box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41); */
 }
 
 .background-large-text {
@@ -127,23 +121,17 @@
 
 .para-1 {
   padding: 0px 20px 20px 8px;
-  /* line-height: 32px; */
 }
 
 .para-2 {
   padding: 0px 20px 20px 20px;
-  /* line-height: 32px; */
 }
 
 .work-overview {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
   height: 750px;
-  left: 0px;
-  top: 2385px;
   background: #051045;
   color: #ffffff;
 }

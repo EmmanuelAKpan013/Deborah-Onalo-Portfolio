@@ -122,7 +122,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/*
+
       <div className="work-overview">
         <div className="work-over-text">
           <h4>02</h4>
@@ -161,6 +161,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
+      {/*
       <div className="research">
         <div className="research-header-and-image">
           <div className="research-header">
