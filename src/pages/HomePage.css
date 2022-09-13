@@ -1,27 +1,32 @@
 .designer-container {
-  display: flex;
+  /* text-align: center; */
   position: relative;
+  display: flex;
+  align-items: center;
   flex-direction: column;
+  margin-top: 80px;
+  border: 1px solid red;
 }
 
 .designer-image {
-  position: absolute;
+  position: relative;
   width: 370px;
   height: 636px;
-  left: 593px;
-  top: 80px;
+  left: -20px;
+  /* top: 80px; */
   background: url("../images/designerImage.png");
   border-radius: 150px;
 }
 
 .designer-text {
-  position: absolute;
-  width: 1059px;
+  position: relative;
+  /* width: 1059px; */
   height: 170px;
-  left: 258px;
-  top: 350px;
+  left: 0px;
+  top: -380px;
+  border: 1px solid red;
 }
-
+/*
 .designer-name {
   position: absolute;
   left: 669px;
@@ -32,4 +37,4 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-}
+} */
