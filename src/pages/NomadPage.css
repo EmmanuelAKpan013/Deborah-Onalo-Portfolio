@@ -87,15 +87,12 @@
 
 .background-section > div {
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   width: 80%;
-  border: 1px solid red;
 }
 
 .background-large-text {
   width: 40%;
-  border: 1px solid green;
 }
 
 .background-large-text h4 {
@@ -125,7 +122,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
-  border: 1px solid black;
 }
 
 .para-1 {
@@ -149,12 +145,10 @@
   display: flex;
   justify-content: space-around;
   width: 80%;
-  border: 1px solid red;
 }
 
 .work-over-text {
   width: 40%;
-  border: 1px solid black;
 }
 
 .work-over-text h4 {
@@ -179,7 +173,6 @@
   font-style: normal;
   line-height: 32px;
   color: #ffffff;
-  border: 1px solid yellow;
 }
 
 .fastr {
@@ -222,14 +215,12 @@
   align-items: center;
   justify-content: space-around;
   width: 80%;
-  border: 1px solid red;
 }
 
 .research-header-and-image {
   display: flex;
   flex-direction: column;
   width: 40%;
-  border: 1px solid black;
 }
 
 .research-header h4 {
@@ -255,7 +246,6 @@
   display: grid;
   width: auto;
   color: #ffffff;
-  border: 1px solid yellow;
 }
 
 .image-box > img {
@@ -277,17 +267,14 @@
 }
 
 .research-para {
-  /* position: relative; */
-  /* top: 80px; */
-  /* right: 20px; */
   width: 50%;
   color: #e0e0e0;
   line-height: 24px;
-  border: 1px solid black;
+  margin-top: 180px;
 }
 
 .interview {
-  height: 180px;
+  height: 160px;
   margin: 0px 0 10px 0;
 }
 
