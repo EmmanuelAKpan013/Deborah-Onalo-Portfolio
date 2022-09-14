@@ -384,7 +384,6 @@
 }
 
 .girl-image {
-  /* height: 605px; */
   height: auto;
   background: #838786;
 }
@@ -396,15 +395,10 @@
 }
 
 .website-section {
-  /* position: relative; */
-  /* width: 1585px; */
   height: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  /* left: 0px; */
-  /* top: 5312px; */
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
 }
 
@@ -467,70 +461,6 @@
   position: relative;
   top: 190px;
 }
-
-/* .website-section-table {
-  position: absolute;
-  width: 1350px;
-  height: 1150px;
-  left: 120px;
-  top: 550px;
-  background: #ffffff;
-  border-radius: 20px;
-} */
-
-/* .website-section-table > h2 {
-  position: relative;
-  top: 70px;
-  left: 50px;
-  font-family: "Avenir Next LT Pro";
-  font-style: normal;
-  width: 500px;
-  color: #000000;
-} */
-
-/* .chart {
-  position: relative;
-  top: 120px;
-  left: 20px;
-  width: 1300px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 2rem;
-} */
-
-/* .chart > button {
-  border-radius: 10px;
-  border: none;
-  height: 27px;
-  width: auto;
-  color: #ffffff;
-  background: linear-gradient(rgba(255, 140, 123, 0.96), #ff4a90);
-} */
-
-/* .chart .empty {
-  visibility: hidden;
-} */
-
-/* .chart-text-header {
-  font-family: "Avenir Next LT Pro";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  margin-top: 15px;
-  margin-left: 40px;
-  color: #000000;
-} */
-
-/* .chart-text {
-  font-family: "Avenir Next LT Pro";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 20px;
-  padding: 10px;
-
-  color: rgba(16, 16, 16, 0.6);
-} */
 
 .wireframe-section {
   position: relative;
