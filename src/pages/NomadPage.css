@@ -392,9 +392,7 @@
 }
 
 .girl-image {
-  /* width: 100%; */
   height: auto;
-  /* background: #838786; */
 }
 
 .girl-image > img {
@@ -416,7 +414,6 @@
   flex-direction: column;
   align-items: center;
   width: 80%;
-  border: 1px solid red;
 }
 
 .section-header-container {
@@ -473,20 +470,24 @@
 }
 
 .wireframe-section {
-  position: relative;
-  height: 1339px;
+  display: flex;
+  justify-content: center;
   background: #051045;
 }
 
-.wireframe-section > h2 {
-  position: absolute;
-  top: 70px;
-  left: 180px;
+.wireframe-section > div {
+  margin: 100px 0;
+  padding: 30px 30px;
+  width: 80%;
+  border: 1px solid green;
+}
+
+.wireframe-section > div > h2 {
+  margin-bottom: 60px;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  line-height: 64px;
   color: #ffffff;
 }
 
@@ -494,13 +495,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.5rem;
-  position: absolute;
-  top: 180px;
-  left: 200px;
-}
-
-.wireframeImage-4 {
-  background: #ffffff;
 }
 
 .high-fidelity-wireframe {

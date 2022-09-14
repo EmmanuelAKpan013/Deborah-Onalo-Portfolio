@@ -320,19 +320,21 @@ function NomadPage() {
         </div>
       </div>
       <div className="wireframe-section">
-        <h2>Wireframe</h2>
-        <div className="wireframe-images">
-          <div>
-            <img src={wireframeImage1} alt="" />
-          </div>
-          <div>
-            <img src={wireframeImage2} alt="" />
-          </div>
-          <div>
-            <img src={wireframeImage3} alt="" />
-          </div>
-          <div className="wireframeImage-4">
-            <img src={wireframeImage4} alt="" />
+        <div>
+          <h2>Wireframe</h2>
+          <div className="wireframe-images">
+            <div>
+              <img src={wireframeImage1} alt="" />
+            </div>
+            <div>
+              <img src={wireframeImage2} alt="" />
+            </div>
+            <div>
+              <img src={wireframeImage3} alt="" />
+            </div>
+            <div>
+              <img src={wireframeImage4} alt="" />
+            </div>
           </div>
         </div>
       </div>
