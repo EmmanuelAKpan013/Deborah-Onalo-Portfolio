@@ -281,43 +281,42 @@ function NomadPage() {
       </div>
 
       <div className="website-section">
-        <div></div>
-
-        <div className="section-header-container">
-          <div className="website-section-header">
-            <h4>05</h4>
-            <br />
-            <h2>Website</h2>
-          </div>
-          <div className="website-section-paragraph">
-            <div className="para">
-              <h3>WEB APPLICATION</h3>
+        <div>
+          <div className="section-header-container">
+            <div className="website-section-header">
+              <h4>05</h4>
               <br />
-              <p>
-                This webapp was proffered as a solution as in one dashboard, a
-                user is able to track his invoices and purchase orders, create a
-                purchase order and keep record of his or her credit and even
-                have access to payments before the supplier releases them-
-                unlocking capital.
-              </p>
+              <h2>Website</h2>
             </div>
-            <br />
-            <br />
-            <div className="para">
-              <h3>CUSTOMER JOURNEY MAP</h3>
+            <div className="website-section-paragraph">
+              <div className="para">
+                <h3>WEB APPLICATION</h3>
+                <br />
+                <p>
+                  This webapp was proffered as a solution as in one dashboard, a
+                  user is able to track his invoices and purchase orders, create
+                  a purchase order and keep record of his or her credit and even
+                  have access to payments before the supplier releases them-
+                  unlocking capital.
+                </p>
+              </div>
               <br />
-              <p>
-                Theis customer journey map helps us understand the possible
-                behaviours of our users better and aid in building the site map
-                for the project.
-              </p>
+              <br />
+              <div className="para">
+                <h3>CUSTOMER JOURNEY MAP</h3>
+                <br />
+                <p>
+                  Theis customer journey map helps us understand the possible
+                  behaviours of our users better and aid in building the site
+                  map for the project.
+                </p>
+              </div>
             </div>
-            <div className="para-two"></div>
           </div>
-        </div>
 
-        <div className="nomad-website-section-table">
-          <img src={customerJourneyMap} alt="" />
+          <div className="nomad-website-section-table">
+            <img src={customerJourneyMap} alt="" />
+          </div>
         </div>
       </div>
       {/* <div className="wireframe-section">
