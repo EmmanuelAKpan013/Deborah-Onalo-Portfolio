@@ -319,7 +319,7 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/* <div className="wireframe-section">
+      <div className="wireframe-section">
         <h2>Wireframe</h2>
         <div className="wireframe-images">
           <div>
@@ -335,7 +335,7 @@ function NomadPage() {
             <img src={wireframeImage4} alt="" />
           </div>
         </div>
-      </div> */}
+      </div>
       {/*
 
       <div className="high-fidelity-wireframe">
