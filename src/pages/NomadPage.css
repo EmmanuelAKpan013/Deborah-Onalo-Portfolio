@@ -212,17 +212,24 @@
 .research {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   height: 793px;
   background: linear-gradient(90deg, #265de3 0%, #ab85ee 100%);
+}
+
+.research > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  border: 1px solid red;
 }
 
 .research-header-and-image {
   display: flex;
   flex-direction: column;
   width: 40%;
-  position: relative;
-  left: 45px;
+  border: 1px solid black;
 }
 
 .research-header h4 {
@@ -246,9 +253,9 @@
 
 .research-image > div {
   display: grid;
-  grid-auto-rows: 230px;
   width: auto;
   color: #ffffff;
+  border: 1px solid yellow;
 }
 
 .image-box > img {
@@ -270,12 +277,13 @@
 }
 
 .research-para {
-  position: relative;
-  top: 80px;
-  right: 20px;
-  width: 30%;
+  /* position: relative; */
+  /* top: 80px; */
+  /* right: 20px; */
+  width: 50%;
   color: #e0e0e0;
   line-height: 24px;
+  border: 1px solid black;
 }
 
 .interview {

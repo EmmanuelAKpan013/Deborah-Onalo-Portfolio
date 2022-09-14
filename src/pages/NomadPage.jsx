@@ -164,51 +164,53 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/* <div className="research">
-        <div className="research-header-and-image">
-          <div className="research-header">
-            <h4>03</h4>
-            <br />
-            <h2>Research</h2>
+      <div className="research">
+        <div>
+          <div className="research-header-and-image">
+            <div className="research-header">
+              <h4>03</h4>
+              <br />
+              <h2>Research</h2>
+            </div>
+            <div className="research-image">
+              <div className="image-box image-box-1">
+                <img src={researchLadyOne} alt="" />
+              </div>
+              <div className=" image-box image-box-2">
+                <img src={researchManOne} alt="" className="manImage" />
+              </div>
+              <div className="image-box image-box-3">
+                <img src={researchLadyTwo} alt="" />
+              </div>
+            </div>
           </div>
-          <div className="research-image">
-            <div className="image-box image-box-1">
-              <img src={researchLadyOne} alt="" />
+          <div className="research-para">
+            <div className="interview">
+              <hr className="interview-line" />
+              <br />
+              <h4>Interviews</h4>
+              <br />
+              <p>
+                We were able to determine the main challenges that these
+                business owners were encountering in their activities through
+                zoom calls and random interactions with MSME entrepreneurs.
+              </p>
             </div>
-            <div className=" image-box image-box-2">
-              <img src={researchManOne} alt="" className="manImage" />
-            </div>
-            <div className="image-box image-box-3">
-              <img src={researchLadyTwo} alt="" />
+            <br />
+            <div className="interview">
+              <hr className="interview-line" />
+              <br />
+              <h4>Interviews</h4>
+              <br />
+              <p>
+                We were able to determine the main challenges that these
+                business owners were encountering in their activities through
+                zoom calls and random interactions with MSME entrepreneurs.
+              </p>
             </div>
           </div>
         </div>
-        <div className="research-para">
-          <div className="interview">
-            <hr className="interview-line" />
-            <br />
-            <h4>Interviews</h4>
-            <br />
-            <p>
-              We were able to determine the main challenges that these business
-              owners were encountering in their activities through zoom calls
-              and random interactions with MSME entrepreneurs.
-            </p>
-          </div>
-          <br />
-          <div className="interview">
-            <hr className="interview-line" />
-            <br />
-            <h4>Interviews</h4>
-            <br />
-            <p>
-              We were able to determine the main challenges that these business
-              owners were encountering in their activities through zoom calls
-              and random interactions with MSME entrepreneurs.
-            </p>
-          </div>
-        </div>
-      </div> */}
+      </div>
 
       {/* <div className="persona">
         <h2>Persona</h2>
