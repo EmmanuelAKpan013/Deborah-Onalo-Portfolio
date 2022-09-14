@@ -212,67 +212,69 @@ function NomadPage() {
         </div>
       </div>
 
-      {/* <div className="persona">
-        <h2>Persona</h2>
-        <div className="persona-image-description">
-          <div className="persona-image">
-            <img src={meritThomas} alt="" />
-          </div>
-          <div className="description">
-            <h2>Olareweju Tolani.</h2>
-            <br />
-            <p className="first-paragraph">
-              A small business owner who has run his business for close to 6
-              months in Kaduna Nigeria. Olarewaju spends her day filling forms
-              and making calls to the banks to confirm if payments have been
-              made on his goods and services supplied . Most of the time, he
-              ends up making mistakes, money lost with no way to track them or
-              his services rendered in the last threee months and no way to
-              build good credit scroe as a result of lack of enough evidence to
-              show his credibility which also is due to suppliers failing him at
-              different points
-            </p>
-            <br />
-            <p className="second-paragraph">
-              “Spending hours searching and filling paperwork is exhausting and
-              overwhelming. I feel ineffecient on most days”
-            </p>
-            <div className="card-container">
-              <div className="card">
-                <h3>Pain Points</h3>
-                <ul>
-                  <li>
-                    <p>
-                      Unable to build credit score due to late payment on the
-                      part of suppliers
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      Frustration keeping up with paperwork as business grows
-                      daily
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div className="card">
-                <h3>Needs</h3>
-                <ul>
-                  <li>
-                    <p>
-                      A credible way to build credit score to unlock capital for
-                      his growing business
-                    </p>
-                  </li>
-                  <li>
-                    <p>A digital tool which can aid in tracking expenses.</p>
-                  </li>
-                </ul>
+      <div className="persona">
+        <div>
+          <h2>Persona</h2>
+          <div className="persona-image-description">
+            <div className="persona-image">
+              <img src={meritThomas} alt="" />
+            </div>
+            <div className="description">
+              <h2>Olareweju Tolani.</h2>
+              <br />
+              <p className="first-paragraph">
+                A small business owner who has run his business for close to 6
+                months in Kaduna Nigeria. Olarewaju spends her day filling forms
+                and making calls to the banks to confirm if payments have been
+                made on his goods and services supplied . Most of the time, he
+                ends up making mistakes, money lost with no way to track them or
+                his services rendered in the last threee months and no way to
+                build good credit scroe as a result of lack of enough evidence
+                to show his credibility which also is due to suppliers failing
+                him at different points
+              </p>
+              <br />
+              <p className="second-paragraph">
+                “Spending hours searching and filling paperwork is exhausting
+                and overwhelming. I feel ineffecient on most days”
+              </p>
+              <div className="card-container">
+                <div className="card">
+                  <h3>Pain Points</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        Unable to build credit score due to late payment on the
+                        part of suppliers
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Frustration keeping up with paperwork as business grows
+                        daily
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="card">
+                  <h3>Needs</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        A credible way to build credit score to unlock capital
+                        for his growing business
+                      </p>
+                    </li>
+                    <li>
+                      <p>A digital tool which can aid in tracking expenses.</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
