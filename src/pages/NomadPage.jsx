@@ -276,11 +276,13 @@ function NomadPage() {
         </div>
       </div>
 
-      {/* <div className="girl-image">
+      <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
-      </div> */}
+      </div>
 
-      {/* <div className="website-section">
+      <div className="website-section">
+        <div></div>
+
         <div className="section-header-container">
           <div className="website-section-header">
             <h4>05</h4>
@@ -317,7 +319,7 @@ function NomadPage() {
         <div className="nomad-website-section-table">
           <img src={customerJourneyMap} alt="" />
         </div>
-      </div> */}
+      </div>
       {/* <div className="wireframe-section">
         <h2>Wireframe</h2>
         <div className="wireframe-images">
