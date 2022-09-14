@@ -78,53 +78,56 @@ function NomadPage() {
       </div>
 
       <div className="background-section">
-        <div className="background-large-text">
-          <h4>01</h4>
-          <br /> <h2>Background</h2>
-        </div>
-        <div className="background-paragraph">
-          <div className="para-1">
-            <p>
-              Currently, In Nigeria, MSMEs are the engines powering the Nation’s
-              Economy. These MSMEs are about 42 million in number, however only
-              about 4% have access to capital, ie very few number of these MSMEs
-              have access to affordable sources of working capital. This is also
-              due to the fact that these processes from traditional and neo
-              banks are quite tedious and the requirements needed for these
-              might not also be easily accessible.
-            </p>
+        <div>
+          <div className="background-large-text">
+            <h4>01</h4>
             <br />
-            <p>
-              Nomad Bank provided a feature - <strong>Fastr</strong> which
-              provides an enhanced digital financial service which included:
-            </p>
+            <p>Background</p>
           </div>
-          <div className="para-2">
-            <ul>
-              <li>
-                <p>
-                  A complete Order to Cash solution to streamline and
-                  standardise the invoicing process.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Analytics tools record business performance, quantifying the
-                  value of early payments in money and time.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Early payment on invoices means SMEs can access money owed
-                  within 48 hours rather than waiting 30, 60 or even 180 days!
-                </p>
-              </li>
-            </ul>
+          <div className="background-paragraph">
+            <div className="para-1">
+              <p>
+                Currently, In Nigeria, MSMEs are the engines powering the
+                Nation’s Economy. These MSMEs are about 42 million in number,
+                however only about 4% have access to capital, ie very few number
+                of these MSMEs have access to affordable sources of working
+                capital. This is also due to the fact that these processes from
+                traditional and neo banks are quite tedious and the requirements
+                needed for these might not also be easily accessible.
+              </p>
+              <br />
+              <p>
+                Nomad Bank provided a feature - <strong>Fastr</strong> which
+                provides an enhanced digital financial service which included:
+              </p>
+            </div>
+            <div className="para-2">
+              <ul>
+                <li>
+                  <p>
+                    A complete Order to Cash solution to streamline and
+                    standardise the invoicing process.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Analytics tools record business performance, quantifying the
+                    value of early payments in money and time.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Early payment on invoices means SMEs can access money owed
+                    within 48 hours rather than waiting 30, 60 or even 180 days!
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="work-overview">
+      {/* <div className="work-overview">
         <div className="work-over-text">
           <h4>02</h4>
           <br />
@@ -161,8 +164,8 @@ function NomadPage() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="research">
+      </div> */}
+      {/* <div className="research">
         <div className="research-header-and-image">
           <div className="research-header">
             <h4>03</h4>
@@ -206,9 +209,9 @@ function NomadPage() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="persona">
+      {/* <div className="persona">
         <h2>Persona</h2>
         <div className="persona-image-description">
           <div className="persona-image">
@@ -268,13 +271,13 @@ function NomadPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="girl-image">
+      {/* <div className="girl-image">
         <img src={girlImageFullWidth} alt="" />
-      </div>
+      </div> */}
 
-      <div className="website-section">
+      {/* <div className="website-section">
         <div className="section-header-container">
           <div className="website-section-header">
             <h4>05</h4>
@@ -311,241 +314,8 @@ function NomadPage() {
         <div className="nomad-website-section-table">
           <img src={customerJourneyMap} alt="" />
         </div>
-
-        {/* <div className="website-section-table">
-          <h2>Customer Journey Map</h2>
-          <div className="chart">
-            <button className="btn empty">Empty</button>
-            <button className="btn">Research</button>
-            <button className="btn">Onboarding</button>
-            <button className="btn">Create Purchasing Order</button>
-            <button className="btn">Invoice management</button>
-            <button className="btn">Dispute</button>
-            <button className="btn">Invite users</button>
-            <div className="chart-text-header">Doing</div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  Looking for softwares that can help create and manage purchase
-                  orders
-                </li>
-                <br />
-                <li>Reading reviews on Nomad's Invoice management system</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Creating an account on Nomad</li>
-                <br />
-                <li>Completing the To-do-list to set up their account</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  Clicking 'New Purchase Order' button to create a fresh
-                  purchase order
-                </li>
-                <br />
-                <li>
-                  Edit purchase order created by you or other invited users
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Review invoices sent by suppliers.</li>
-                <br />
-                <li>Accept or reject invoices with stated reasons.</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Resolve disputes on purchase orders and invoices</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  Invite users in your company to collaborate on Purchase Orders
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text-header">Thinking</div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  What software or product can I use to manage invoices and
-                  purchase orders completely?
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  How solid is Nomad's verification process? Can it protect me
-                  and my company from fraud?
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>How fast can I create a purchase order?</li>
-                <br />
-                <li>Can other people help in creating purchase orders?</li>
-                <br />
-                <li>Can purchase orders be edited? </li>
-                <br />
-                <li>
-                  Will I be notified if other people edit a purchase order I
-                  created or create a new one?
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>What options do I have with managing invoices?</li>
-                <br />
-                <li>
-                  Am I the only one authorised to accept or reject invoices?
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Who can I talk to from the dispute screen?</li>
-                <br />
-                <li>How long will it take to get a response?</li>
-                <br />
-                <li>Can it completely be handled here?</li>
-                <br />
-                <li>How will I be notified when there is a response?</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>How many people can I invite?</li>
-                <br />
-                <li>Can I monitor what they do?</li>
-                <br />
-                <li>What level of authority can I give them?</li>
-              </ul>
-            </div>
-            <div className="chart-text-header">Touch Point</div>
-            <div className="chart-text">
-              <ul>
-                <li>Direct Google search</li>
-                <br />
-                <li>Social media</li>
-                <br />
-                <li>Nomad landing page</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Nomad landing page</li>
-                <br />
-                <li>Onboarding screen</li>
-                <br />
-                <li>Welcome screen</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>New purchase order screen</li>
-                <br />
-                <li>Purchase order screen</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Invoice management screen</li>
-                <br />
-                <li>Invoice review screen</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Dispute screen</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Invite users screen</li>
-              </ul>
-            </div>
-            <div className="chart-text-header">Emotion</div>
-            <div className="chart-text">
-              <ul>
-                <li>Overwhelmed</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Curious</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Excited</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Thinking</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Confused</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Satisfied</li>
-              </ul>
-            </div>
-            <div className="chart-text-header">Opporunity</div>
-            <div className="chart-text">
-              <ul>
-                <li>Increase reach on Google and social media</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  Increase onboarding speed and attractiveness of welcoming
-                  screens
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>
-                  Create quick tutorials for creating and managing purchase
-                  orders from the New Purchase Order screen
-                </li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Create an FAQ that answers basic questions</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Create an FAQ that answers basic questions</li>
-              </ul>
-            </div>
-            <div className="chart-text">
-              <ul>
-                <li>Create an FAQ that answers basic questions</li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
-      </div>
-      <div className="wireframe-section">
+      </div> */}
+      {/* <div className="wireframe-section">
         <h2>Wireframe</h2>
         <div className="wireframe-images">
           <div>
@@ -561,7 +331,7 @@ function NomadPage() {
             <img src={wireframeImage4} alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/*
 
       <div className="high-fidelity-wireframe">
