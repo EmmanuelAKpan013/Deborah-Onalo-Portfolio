@@ -384,22 +384,23 @@ function NomadPage() {
         </div>
       </div>
 
-      {/* <div className="key-takeaway-section">
-        <h2>Key Takeaways</h2>
-        <p>
-          - I learnt a lot about how businesses work. I learnt about purchase
-          orders and how they work. I also learnt how tech improves this whole
-          process. This was an exciting project for me as it allowed me test the
-          waters with a niche I’m not really familiar with and understand the
-          value of these services. I hope to learn more as I progress.
-          <br />
-          <br />I hope to learn more as I progress.
-        </p>
-
+      <div className="key-takeaway-section">
+        <div className="nomad-key-takeaway">
+          <h2>Key Takeaways</h2>
+          <p>
+            - I learnt a lot about how businesses work. I learnt about purchase
+            orders and how they work. I also learnt how tech improves this whole
+            process. This was an exciting project for me as it allowed me test
+            the waters with a niche I’m not really familiar with and understand
+            the value of these services. I hope to learn more as I progress.
+            <br />
+            <br />I hope to learn more as I progress.
+          </p>
+        </div>
         <div className="nomad-pagination-container">
           <Pagination />
         </div>
-      </div> */}
+      </div>
     </>
   );
 }
