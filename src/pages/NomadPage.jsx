@@ -16,13 +16,13 @@ import wireframeImage2 from "../images/nomad/Group2.png";
 import wireframeImage3 from "../images/nomad/Group3.png";
 import wireframeImage4 from "../images/nomad/Group4.png";
 import customerJourneyMap from "../images/nomad/Group 9413.png";
-import landingPageImageOne from "../images/nomad/Desktop - 32.png";
-import landingPageImageTwo from "../images/nomad/036.png";
+import landingPageImageOne from "../images/nomad/Desktop - 32 (1).png";
+import landingPageImageTwo from "../images/nomad/036 (1).png";
 import landingPageImageThree from "../images/nomad/Welcome 8.png";
 import landingPageImageFour from "../images/nomad/046.png";
 import landingPageImageFive from "../images/nomad/047.png";
-import landingPageImageSix from "../images/nomad/Group 9404.png";
-import landingPageImageSeven from "../images/nomad/Group 9402.png";
+import landingPageImageSix from "../images/nomad/48.png";
+import landingPageImageSeven from "../images/nomad/PO 4.png";
 import Pagination from "../components/Pagination";
 function NomadPage() {
   return (
@@ -338,49 +338,53 @@ function NomadPage() {
           </div>
         </div>
       </div>
-      {/*
 
       <div className="high-fidelity-wireframe">
-        <h2 className="high-fidelity-header">High Fidelity Wireframes</h2>
-        <p className="high-fidelity-small-header">
-          Here are some selected screens
-        </p>
+        <div>
+          <h2 className="high-fidelity-header">High Fidelity Wireframes</h2>
+          <p className="high-fidelity-small-header">
+            Here are some selected screens
+          </p>
 
-        <p className="landing-page">Landing page</p>
-        <div className="landing-page-container">
-          <div className="landingPage-image-1">
-            <div>
-              <img src={landingPageImageOne} alt="" />
+          <p className="nomad-hf-landing-page">Landing page</p>
+          <div className="landing-page-container">
+            <div className="landingPage-image">
+              <div>
+                <img src={landingPageImageOne} alt="" />
+              </div>
+              <div>
+                <p>Creating a Purchase Order</p>
+                <img src={landingPageImageSix} alt="" />
+              </div>
+              <div>
+                <p>Purchase Order Design</p>
+                <img src={landingPageImageSeven} alt="" />
+              </div>
             </div>
-            <div>
-              <img src={landingPageImageSeven} alt="" />
-            </div>
-            <div>
-              <img src={landingPageImageSix} alt="" />
-            </div>
-          </div>
-          <div className="landingPage-image-2">
-            <div>
-              <img src={landingPageImageTwo} alt="" />
-            </div>
-            <div>
-              <p>Analytics Dashboard</p>
-              <img src={landingPageImageThree} alt="" />
-            </div>
-            <div>
-              <p>Invoice Management Empty State</p>
-              <br />
-              <img src={landingPageImageFour} alt="" />
-            </div>
-            <div>
-              <p>Invoice Management System</p>
-              <br />
-              <img src={landingPageImageFive} alt="" />
+            <div className="landingPage-image">
+              <div>
+                <img src={landingPageImageTwo} alt="" />
+              </div>
+              <div>
+                <p>Analytics Dashboard</p>
+                <img src={landingPageImageThree} alt="" />
+              </div>
+              <div>
+                <p>Invoice Management Empty State</p>
+                <br />
+                <img src={landingPageImageFour} alt="" />
+              </div>
+              <div>
+                <p>Invoice Management System</p>
+                <br />
+                <img src={landingPageImageFive} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="key-takeaway-section">
+
+      {/* <div className="key-takeaway-section">
         <h2>Key Takeaways</h2>
         <p>
           - I learnt a lot about how businesses work. I learnt about purchase
