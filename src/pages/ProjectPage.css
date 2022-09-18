@@ -11,10 +11,6 @@
 }
 
 .project-lists {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
   margin: 30px auto;
   width: 80%;
   height: auto;
@@ -23,7 +19,7 @@
   font-weight: 400;
   font-size: 64px;
   color: #664500;
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 
 .project-list {
