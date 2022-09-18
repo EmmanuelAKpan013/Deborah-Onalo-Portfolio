@@ -522,12 +522,13 @@
 }
 
 .high-fidelity-wireframe > div {
+  margin: 30px 0;
   padding: 20px;
   width: 80%;
 }
 
 .high-fidelity-header {
-  margin: 85px 0 20px 0;
+  margin: 35px 0 20px 0;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
@@ -561,11 +562,15 @@
 
 .landingPage-image {
   color: #ffffff;
-  margin: 5px 30px 5px -1px;
+  margin: 5px 30px 5px 5px;
 }
 
 .landingPage-image > div {
   margin: 30px 0;
+}
+
+.landingPage-image > div > img {
+  width: 100%;
 }
 
 .landingPage-image > div > p {
