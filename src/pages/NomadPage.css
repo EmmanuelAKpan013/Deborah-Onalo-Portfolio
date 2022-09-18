@@ -308,6 +308,7 @@
 .persona > div {
   width: 80%;
   padding: 30px;
+  /* border: 1px solid black; */
 }
 
 .persona > div > h2 {
@@ -320,8 +321,16 @@
 
 .persona-image-description {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
+  /* align-items: flex-start; */
+  /* justify-content: space-around; */
+  /* border: 1px solid red; */
+  /* width: 90%; */
+  margin: 0 auto;
+}
+
+.persona-image {
+  width: 20%;
+  /* border: 1px solid green; */
 }
 
 .persona-image > img {
@@ -329,8 +338,10 @@
 }
 
 .description {
-  margin: 20px 50px;
+  width: 80%;
+  margin: 20px 0;
   padding: 10px;
+  /* border: 1px solid palevioletred; */
 }
 
 .description > h2 {
