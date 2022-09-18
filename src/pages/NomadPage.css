@@ -20,6 +20,11 @@
   justify-content: center;
 }
 
+/* .nomadLandingImg > img {
+  width: 100%;
+  border: 1px solid red;
+} */
+
 .img-1 img {
   width: 396px;
   height: 515px;
