@@ -7,7 +7,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  border: 1px solid red;
 }
 
 .project-lists {
@@ -19,14 +18,11 @@
   font-weight: 400;
   font-size: 64px;
   color: #664500;
-  /* border: 1px solid blue; */
 }
 
 .project-list {
-  /* width: 1400px; */
   border-bottom: 0.3px solid #664500;
   padding: 40px 0;
-  /* border: 1px solid black; */
 }
 .project-list p {
   cursor: pointer;
