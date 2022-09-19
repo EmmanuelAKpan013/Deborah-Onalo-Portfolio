@@ -10,7 +10,7 @@ import blomResearchImageThree from "../images/blomblom/leon-m2TU2gfqSeE-unsplash
 function BlomBlomPage() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <div className="blomLandingImageAndLogo">
         <div className="blomblomLandingImg">
           <img src={blomblomFirstImage} alt="" className="blomFirstImage" />
@@ -19,6 +19,8 @@ function BlomBlomPage() {
           <img src={blomblomLogo} alt="" />
         </div>
       </div>
+
+      {/*
       <div className="roleContainer">
         <div className="roleContent">
           <h3>ROLE</h3>
@@ -43,7 +45,6 @@ function BlomBlomPage() {
       <div className="freeEyeTest">
         <img src={dashboardImage} alt="" />
       </div>
-
       <div className="blom-work-overview">
         <div className="work-overview-text">
           <h4>01</h4>
@@ -238,7 +239,8 @@ function BlomBlomPage() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>{" "}
+      */}
     </>
   );
 }
