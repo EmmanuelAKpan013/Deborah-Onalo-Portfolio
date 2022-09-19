@@ -107,71 +107,83 @@ function BlomBlomPage() {
           </div>
         </div>
       </div>
-      {/*
       <div className="blom-research-section">
-        <div className="blom-research-header-and-image">
-          <div className="blom-research-header">
-            <h4>02</h4>
+        <div>
+          {" "}
+          <div className="blom-research-header-and-image">
+            <div className="blom-research-header">
+              <h4>02</h4>
+              <br />
+              <h2>Research</h2>
+            </div>
+            <div className="blom-research-image">
+              <div>
+                <img
+                  src={blomResearchImageOne}
+                  alt=""
+                  className="blom-image-1"
+                />
+              </div>
+              <div className="blom-image-box-2">
+                <img
+                  src={blomResearchImageThree}
+                  alt=""
+                  className="blom-image-2"
+                />
+              </div>
+              <div>
+                <img
+                  src={blomResearchImageTwo}
+                  alt=""
+                  className="blom-image-3"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="blom-research-para">
+            <div className="blom-research-first-para">
+              <p>
+                To better understand the main problems our customers and options
+                competitors were offering, we started our design process with
+                research.
+              </p>
+            </div>
+            <div className="blom-competitorAnalysis">
+              <div className="blom-competitor-line-container">
+                <hr className="blom-competitor-line" />
+              </div>
+
+              <div className="analysis-container">
+                <h4>Competitor Analysis</h4>
+
+                <p>
+                  We carried out competitor analysis by breaking down their
+                  design process for the features we wanted, experiencing their
+                  process from end to end across a various range of competitors.
+                </p>
+              </div>
+            </div>
             <br />
-            <h2>Research</h2>
-          </div>
-          <div className="blom-research-image">
-            <div>
-              <img src={blomResearchImageOne} alt="" className="blom-image-1" />
-            </div>
-            <div className="blom-image-box-2">
-              <img
-                src={blomResearchImageThree}
-                alt=""
-                className="blom-image-2"
-              />
-            </div>
-            <div>
-              <img src={blomResearchImageTwo} alt="" className="blom-image-3" />
-            </div>
-          </div>
-        </div>
-        <div className="blom-research-para">
-          <div className="blom-research-first-para">
-            <p>
-              To better understand the main problems our customers and options
-              competitors were offering, we started our design process with
-              research.
-            </p>
-          </div>
-          <div className="blom-competitorAnalysis">
-            <div className="blom-competitor-line-container">
-              <hr className="blom-competitor-line" />
-            </div>
+            <div className="blom-competitorAnalysis">
+              <div className="blom-competitor-line-container">
+                <hr className="blom-competitor-line" />
+              </div>
 
-            <div className="analysis-container">
-              <h4>Competitor Analysis</h4>
-
-              <p>
-                We carried out competitor analysis by breaking down their design
-                process for the features we wanted, experiencing their process
-                from end to end across a various range of competitors.
-              </p>
-            </div>
-          </div>
-          <br />
-          <div className="blom-competitorAnalysis">
-            <div className="blom-competitor-line-container">
-              <hr className="blom-competitor-line" />
-            </div>
-
-            <div className="analysis-container">
-              <h4>User Behaviours</h4>
-              <p>
-                We studied user behaviours across the existing ecommerce
-                platform and website. We also carried out research on social
-                media where potential customers shared their views unashamedly
-                on what features they would love to see on such website
-              </p>
+              <div className="analysis-container">
+                <h4>User Behaviours</h4>
+                <p>
+                  We studied user behaviours across the existing ecommerce
+                  platform and website. We also carried out research on social
+                  media where potential customers shared their views unashamedly
+                  on what features they would love to see on such website
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {/*
+
       <div className="blom-insight-section">
         <div className="blom-insight-header">
           <h4>03</h4>

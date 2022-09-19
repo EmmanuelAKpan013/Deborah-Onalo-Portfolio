@@ -118,27 +118,38 @@
   border: 2px solid #febc2c;
 }
 
-/* 
-
 .blom-research-section {
   display: flex;
-  justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 800px;
-  left: 0px;
-  top: 2780px;
+  justify-content: center;
+  position: relative;
+  /* width: 1585px; */
+  /* height: 800px; */
+  height: auto;
+  /* left: 0px; */
+  /* top: 2780px; */
   background: #d9a026;
+  border: 1px solid red;
+}
+
+.blom-research-section > div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px 0;
+  border: 1px solid black;
 }
 
 .blom-research-header-and-image {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 700px;
-  position: relative;
-  left: 45px;
-  top: 80px;
+  width: auto;
+  height: auto;
+  /* height: 700px; */
+  border: 1px solid green;
+
+  /* position: relative; */
+  /* left: 45px; */
+  /* top: 80px; */
 }
 
 .blom-research-header h4 {
@@ -158,13 +169,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  border: 1px solid pink;
 }
 
 .blom-research-image > div {
   display: grid;
-  grid-auto-rows: 230px;
+  /* grid-auto-rows: 230px; */
   width: auto;
   color: #ffffff;
+  border: 1px solid black;
 }
 
 .blom-image-box-2 {
@@ -187,12 +200,15 @@
 }
 
 .blom-research-para {
-  position: relative;
-  top: 140px;
-  right: 45px;
-  width: 30%;
-  height: 500px;
+  /* position: relative; */
+  /* top: 140px; */
+  /* right: 45px; */
+  width: 45%;
+  margin-top: 60px;
+
+  /* height: 500px; */
   line-height: 24px;
+  border: 1px solid green;
 }
 
 .blom-research-first-para {
@@ -234,6 +250,8 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+/* 
 
 .blom-insight-section {
   display: flex;
