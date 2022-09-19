@@ -20,30 +20,30 @@
   z-index: 1;
 }
 
-/* .roleContainer {
+.blom-roleContainer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 199px;
-  left: 0px;
-  top: 630px;
+  margin: -2px -2px 5px -2px;
+  /* padding: 20px 0; */
   color: white;
   background: #1c1b1b;
-  font-family: "DM Sans";
-  font-style: normal;
-}
-.roleContent > h3 {
-  font-weight: 700;
+  font-family: "Circular Std", sans-serif;
 }
 
-.roleContent > p {
-  font-weight: 400;
-  font-size: 15px;
+.blom-roleContent {
+  width: auto;
+  height: 120px;
+  margin: 30px;
+  padding: 10px;
   line-height: 24px;
 }
 
+.blom-roleContent-year {
+  font-family: "HK Grotesk", sans-serif;
+}
+
+/* 
 .freeEyeTest {
   display: flex;
   align-items: center;
