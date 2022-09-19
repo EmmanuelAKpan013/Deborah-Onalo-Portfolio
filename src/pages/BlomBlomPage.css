@@ -59,7 +59,6 @@
   color: #ffffff;
   background: #052c8d;
   box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41);
-  border: 1px solid red;
 }
 
 .blom-work-overview > div {
@@ -67,7 +66,6 @@
   justify-content: space-between;
   width: 80%;
   margin: 100px 0;
-  border: 1px solid black;
 }
 
 .work-overview-text {
