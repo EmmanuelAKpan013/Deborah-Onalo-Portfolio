@@ -52,26 +52,36 @@
   background: #0f3bab;
 }
 
-/* 
-
 .blom-work-overview {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  width: 1585px;
-  height: 1106px;
-  top: 1678px;
+  justify-content: center;
+  /* position: relative; */
+  /* width: 1585px; */
+  /* height: 1106px; */
+  height: auto;
+  /* padding: 30px 0; */
+  /* top: 1678px; */
   color: #ffffff;
   background: #052c8d;
   box-shadow: 0px 0px 20px rgba(4, 51, 39, 0.41);
 }
 
+.blom-work-overview > div {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 30px 0;
+  border: 1px solid red;
+}
+
 .work-overview-text {
-  width: 30%;
+  width: 40%;
   height: 400px;
-  position: relative;
-  top: 80px;
-  left: 120px;
+  border: 1px solid black;
+
+  /* position: relative; */
+  /* top: 80px; */
+  /* left: 120px; */
 }
 
 .work-overview-text h4 {
@@ -90,11 +100,14 @@
 }
 
 .work-overview-text-para {
-  position: relative;
-  top: 80px;
-  right: 120px;
-  width: 45%;
-  height: 1000px;
+  /* position: relative; */
+  /* top: 80px; */
+  /* right: 120px; */
+  border: 1px solid black;
+
+  width: 50%;
+  height: auto;
+  /* height: 1000px; */
   padding: 10px;
   font-family: "Circular Std";
   font-style: normal;
@@ -102,13 +115,20 @@
   color: #ffffff;
 }
 
+.blom-work-overview-para-1 {
+  border: 1px solid green;
+}
+
 .blom-work-overview-para-2 {
-  position: relative;
-  top: 40px;
+  height: auto;
+  border: 1px solid black;
+  /* position: relative; */
+  /* top: 40px; */
 }
 
 .improveWebsite-section {
-  margin: 40px 0;
+  margin: 30px 0;
+  border: 1px solid salmon;
 }
 
 .improveWebsite-section > h4 {
@@ -121,11 +141,13 @@
 }
 
 .blom-horizontal-line {
-  position: relative;
-  top: 10px;
+  /* position: relative; */
+  /* top: 10px; */
   width: 42px;
   border: 2px solid #febc2c;
 }
+
+/* 
 
 .blom-research-section {
   display: flex;

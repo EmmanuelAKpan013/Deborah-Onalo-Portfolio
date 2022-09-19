@@ -43,70 +43,71 @@ function BlomBlomPage() {
       <div className="blom-freeEyeTest">
         <img src={dashboardImage} alt="" />
       </div>
-      {/*
       <div className="blom-work-overview">
-        <div className="work-overview-text">
-          <h4>01</h4>
-          <br />
-          <h2>
-            Work <br />
-            OVerview
-          </h2>
-        </div>
-        <div className="work-overview-text-para">
-          <div className="blom-work-overview-para-1">
-            <p>
-              The brand was created because the owners wanted to see eyewear
-              afresh – to do it better – and create a brand they would buy. They
-              also value honesty, relish buying from similar souls, from people
-              who want to stand for something. <br />
-              <br />
-              <br /> Therefore, working on this project, I had to ensure that
-              the customers experienced eyewear afresh and understood that the
-              brand valued honesty while preserving the brand identity.
-            </p>
+        <div>
+          <div className="work-overview-text">
+            <h4>01</h4>
+            <br />
+            <h2>
+              Work <br />
+              OVerview
+            </h2>
           </div>
-
-          <div className="blom-work-overview-para-2">
-            <div className="improveWebsite-section">
-              <hr className="blom-horizontal-line" />
-              <br />
-              <h4>Improve Website User Experience</h4>
-              <br />
+          <div className="work-overview-text-para">
+            <div className="blom-work-overview-para-1">
               <p>
-                With majority of traffic coming from mobile devices, it was
-                essential to improve the user experience across all devices -
-                making the website responsive. Improving website experience is
-                essential in retaining users and even improving revenue.
+                The brand was created because the owners wanted to see eyewear
+                afresh – to do it better – and create a brand they would buy.
+                They also value honesty, relish buying from similar souls, from
+                people who want to stand for something. <br />
+                <br /> Therefore, working on this project, I had to ensure that
+                the customers experienced eyewear afresh and understood that the
+                brand valued honesty while preserving the brand identity.
               </p>
             </div>
 
-            <div className="improveWebsite-section">
-              <hr className="blom-horizontal-line" />
-              <br />
-              <h4>Book an Appointment</h4>
-              <br />
-              <p>
-                Creating an offline store after being solely an online business
-                since inception, the aim of this solution was to make the
-                offline process as seamless as possible.
-              </p>
-            </div>
+            <div className="blom-work-overview-para-2">
+              <div className="improveWebsite-section">
+                <hr className="blom-horizontal-line" />
+                <br />
+                <h4>Improve Website User Experience</h4>
+                <br />
+                <p>
+                  With majority of traffic coming from mobile devices, it was
+                  essential to improve the user experience across all devices -
+                  making the website responsive. Improving website experience is
+                  essential in retaining users and even improving revenue.
+                </p>
+              </div>
 
-            <div className="improveWebsite-section">
-              <hr className="blom-horizontal-line" />
-              <br />
-              <h4>Eye Test Quiz</h4>
-              <br />
-              <p>
-                This helps users/customers to make the right glasses choice for
-                them tailored towards their preferences for their try free
-                frames at home experiment
-              </p>
+              <div className="improveWebsite-section">
+                <hr className="blom-horizontal-line" />
+                <br />
+                <h4>Book an Appointment</h4>
+                <br />
+                <p>
+                  Creating an offline store after being solely an online
+                  business since inception, the aim of this solution was to make
+                  the offline process as seamless as possible.
+                </p>
+              </div>
+
+              <div className="improveWebsite-section">
+                <hr className="blom-horizontal-line" />
+                <br />
+                <h4>Eye Test Quiz</h4>
+                <br />
+                <p>
+                  This helps users/customers to make the right glasses choice
+                  for them tailored towards their preferences for their try free
+                  frames at home experiment
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      {/*
       <div className="blom-research-section">
         <div className="blom-research-header-and-image">
           <div className="blom-research-header">
