@@ -218,25 +218,22 @@
   line-height: 24px;
 }
 
-/* 
-
 .blom-insight-section {
   display: flex;
-  justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 909px;
-  left: 0px;
-  top: 3580px;
+  justify-content: center;
+  height: auto;
   background: #0f3bab;
 }
 
+.blom-insight-section > div {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
 .blom-insight-header {
-  position: relative;
-  top: 80px;
-  left: 45px;
-  width: 30%;
-  height: 200px;
+  width: 40%;
 }
 
 .blom-insight-header h4 {
@@ -257,16 +254,10 @@
 }
 
 .blom-insight-paragraph {
-  width: 40%;
-  height: 700px;
-  position: relative;
-  top: 120px;
-  right: 50px;
+  width: 50%;
 }
 
 .blom-insight-problem-and-solution {
-  position: relative;
-  top: 0px;
   display: flex;
 }
 
@@ -292,7 +283,6 @@
   font-family: "Circular Std";
   font-style: normal;
   font-weight: lighter;
-  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   padding: 27px;
@@ -457,4 +447,4 @@
 .blom-pagination-container {
   position: relative;
   top: 500px;
-} */
+}

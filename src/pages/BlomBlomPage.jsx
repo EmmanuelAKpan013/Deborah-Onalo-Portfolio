@@ -118,25 +118,13 @@ function BlomBlomPage() {
             </div>
             <div className="blom-research-image">
               <div>
-                <img
-                  src={blomResearchImageOne}
-                  alt=""
-                  className="blom-image-1"
-                />
+                <img src={blomResearchImageOne} alt="" />
               </div>
               <div className="blom-image-box-2">
-                <img
-                  src={blomResearchImageThree}
-                  alt=""
-                  className="blom-image-1"
-                />
+                <img src={blomResearchImageThree} alt="" />
               </div>
               <div>
-                <img
-                  src={blomResearchImageTwo}
-                  alt=""
-                  className="blom-image-3"
-                />
+                <img src={blomResearchImageTwo} alt="" />
               </div>
             </div>
           </div>
@@ -182,77 +170,77 @@ function BlomBlomPage() {
           </div>
         </div>
       </div>
-      {/*
 
       <div className="blom-insight-section">
-        <div className="blom-insight-header">
-          <h4>03</h4>
-          <br />
-          <h2>Insights</h2>
-        </div>
-        <div className="blom-insight-paragraph">
-          <div className="blom-insight-problem-and-solution">
-            <div className="blom-insight-line-container">
-              <hr className="blom-insight-line" />
-            </div>
+        <div>
+          <div className="blom-insight-header">
+            <h4>03</h4>
+            <br />
+            <h2>Insights</h2>
+          </div>
+          <div className="blom-insight-paragraph">
+            <div className="blom-insight-problem-and-solution">
+              <div className="blom-insight-line-container">
+                <hr className="blom-insight-line" />
+              </div>
 
-            <div className="problem-and-solution-container">
-              <h4>Main Problems</h4>
-              <ol>
-                <li>
-                  The e-commerce website lacked the option to search for desired
-                  products making it so hectic for cutomers to search or filter
-                  the products at a go..
-                </li>
-                <br />
-                <li>
-                  There was little done of the website to engage potential
-                  customers and keep them coming back.
-                </li>
-                <br />
-                <li>
-                  The website had a bugs that made it diffcult to use,
-                  especially when switching devices.
-                </li>
-                <br />
-                <li>
-                  Competitors offered more value on their website such as
-                  booking of appointments, eye quizes etc.
-                </li>
-              </ol>
+              <div className="problem-and-solution-container">
+                <h4>Main Problems</h4>
+                <ol>
+                  <li>
+                    The e-commerce website lacked the option to search for
+                    desired products making it so hectic for cutomers to search
+                    or filter the products at a go..
+                  </li>
+                  <br />
+                  <li>
+                    There was little done of the website to engage potential
+                    customers and keep them coming back.
+                  </li>
+                  <br />
+                  <li>
+                    The website had a bugs that made it diffcult to use,
+                    especially when switching devices.
+                  </li>
+                  <br />
+                  <li>
+                    Competitors offered more value on their website such as
+                    booking of appointments, eye quizes etc.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <br />
+
+            <div className="blom-insight-problem-and-solution">
+              <div className="blom-insight-line-container">
+                <hr className="blom-insight-line" />
+              </div>
+
+              <div className="problem-and-solution-container">
+                <h4>Solution</h4>
+                <ol>
+                  <li>
+                    Addition of a search field and filter to search for desired
+                    products and filter the products at a go..
+                  </li>
+                  <br />
+                  <li>
+                    Inclusion of features such as quizes to engage customers and
+                    aid in their glasses selection process so they don’t get
+                    overwhelmed by the amount of glasses on the site.
+                  </li>
+                  <br />
+                  <li>
+                    Design of an appointment system that makes it easy to book
+                    an appointment at the offline store with ease.
+                  </li>
+                </ol>
+              </div>
             </div>
           </div>
-          <br />
-
-          <div className="blom-insight-problem-and-solution">
-            <div className="blom-insight-line-container">
-              <hr className="blom-insight-line" />
-            </div>
-
-            <div className="problem-and-solution-container">
-              <h4>Solution</h4>
-              <ol>
-                <li>
-                  Addition of a search field and filter to search for desired
-                  products and filter the products at a go..
-                </li>
-                <br />
-                <li>
-                  Inclusion of features such as quizes to engage customers and
-                  aid in their glasses selection process so they don’t get
-                  overwhelmed by the amount of glasses on the site.
-                </li>
-                <br />
-                <li>
-                  Design of an appointment system that makes it easy to book an
-                  appointment at the offline store with ease.
-                </li>
-              </ol>
-            </div>
-          </div>
         </div>
-      </div>{" "}
-      */}
+      </div>
     </>
   );
 }
