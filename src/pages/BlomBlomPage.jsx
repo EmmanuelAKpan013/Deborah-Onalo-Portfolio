@@ -128,7 +128,7 @@ function BlomBlomPage() {
                 <img
                   src={blomResearchImageThree}
                   alt=""
-                  className="blom-image-2"
+                  className="blom-image-1"
                 />
               </div>
               <div>
