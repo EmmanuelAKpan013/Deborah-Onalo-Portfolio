@@ -19,7 +19,6 @@ function BlomBlomPage() {
           <img src={blomblomLogo} alt="" />
         </div>
       </div>
-
       <div className="blom-roleContainer">
         <div className="blom-roleContent">
           <h3>ROLE</h3>
@@ -41,11 +40,10 @@ function BlomBlomPage() {
           <p>2021 - Present</p>
         </div>
       </div>
-
-      {/*
-      <div className="freeEyeTest">
+      <div className="blom-freeEyeTest">
         <img src={dashboardImage} alt="" />
       </div>
+      {/*
       <div className="blom-work-overview">
         <div className="work-overview-text">
           <h4>01</h4>
