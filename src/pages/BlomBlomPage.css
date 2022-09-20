@@ -406,20 +406,12 @@
 }
 
 .cancelAndResechedule-section {
-  /* position: relative; */
-  /* top: 350px; */
   margin-top: 100px;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center; */
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .cancelAndResechedule-section > div {
-  border: 1px solid yellow;
   width: 45%;
 }
 
@@ -437,9 +429,6 @@
 }
 
 .blom-key-takeaway-section {
-  /* position: relative; */
-  /* top: 450px; */
-  /* left: 100px; */
   margin-top: 100px;
   width: 70%;
   font-family: "DM Sans";
@@ -448,7 +437,6 @@
   line-height: 34px;
   font-size: 20px;
   color: #ffffff;
-  border: 1px solid red;
 }
 
 .blom-key-takeaway-section > h2 {
@@ -465,6 +453,4 @@
 
 .blom-pagination-container {
   background: #052c8d;
-  /* position: relative; */
-  /* top: 500px; */
 }
