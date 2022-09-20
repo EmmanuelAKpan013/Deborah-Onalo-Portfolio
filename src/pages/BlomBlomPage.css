@@ -289,95 +289,114 @@
 }
 
 .blom-high-fidelity-wireframe {
-  position: absolute;
-  width: 1585px;
+  display: flex;
+  justify-content: center;
   height: 9150px;
-  left: 0px;
-  top: 4487px;
+  /* height: auto; */
 
   background: #052c8d;
 }
 
-.blom-high-fidelity-wireframe > h2 {
-  position: relative;
-  left: 90px;
-  top: 80px;
+.blom-high-fidelity-wireframe > div {
+  width: 80%;
+  margin: 100px 0;
+  /* border: 1px solid black; */
+}
+
+.blom-high-fidelity-wireframe > div > h2 {
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 64px;
   color: #ffffff;
+  /* border: 1px solid red; */
 }
 
-.blom-high-fidelity-wireframe > p {
-  position: relative;
-  left: 90px;
-  top: 90px;
-  width: 50%;
+.blom-high-fidelity-wireframe > div > p {
+  margin-top: 30px;
+  width: 60%;
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 24px;
   color: #ffffff;
+  /* border: 1px solid red; */
 }
 
 .blom-artboard-container {
   display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 140px;
+  justify-content: space-between;
+  margin-top: 40px;
+  border: 1px solid red;
 }
 
-.blom-artboard-left {
-  position: relative;
-  left: 40px;
-  width: 40%;
+.blom-artboard-left > img {
+  width: 100%;
 }
 
 .blom-artboard-right {
   width: 50%;
+  border: 1px solid green;
 }
 
 .blom-leftArrowVector {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 1rem;
+  /* border: 1px solid black; */
 }
 
 .blom-leftArrowVector-Para {
   font-family: "Circular Std";
-  width: 70%;
+  width: auto;
+  height: auto;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 24px;
   color: #ffffff;
+  /* border: 1px solid red; */
+}
+
+.blom-leftArrowVector-Para > div {
+  border: 1px solid red;
 }
 
 .blom-bottomArrowVector {
-  position: relative;
-  left: 54%;
-  top: -23px;
+  vertical-align: top;
+}
+
+.blom-artboardTwoImg {
+  margin-top: 40px;
+  /* border: 1px solid black; */
+}
+
+.blom-artboardTwoImg > img {
+  width: 100%;
 }
 
 .blom-otherScreen {
   position: relative;
-  top: 80px;
-  left: 75px;
   margin-top: 120px;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   color: #ffffff;
+  border: 1px solid red;
 }
 
 .blom-bottomRightArrowVector {
-  position: relative;
-  left: 20%;
-  top: -23px;
+  vertical-align: top;
+}
+
+.blom-artboardFourImg {
+  border: 1px solid yellow;
+  margin-top: 40px;
+}
+
+.blom-artboardFourImg > img {
+  width: 100%;
 }
 
 .blom-appointment {

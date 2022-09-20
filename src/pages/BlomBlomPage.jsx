@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import Pagination from "../components/Pagination";
 import "./BlomBlomPage.css";
 import blomblomLogo from "../images/blomblom/Group 1421.png";
 import blomblomFirstImage from "../images/blomblom/Rectangle 469 (2).png";
@@ -6,6 +7,22 @@ import dashboardImage from "../images/blomblom/Dashboard 1.png";
 import blomResearchImageOne from "../images/blomblom/sigmund-YUuSAJkS3U4-unsplash (1).png";
 import blomResearchImageTwo from "../images/blomblom/green-chameleon-s9CC2SKySJM-unsplash (2).png";
 import blomResearchImageThree from "../images/blomblom/leon-m2TU2gfqSeE-unsplash 1 (1).png";
+import artboardOne from "../images/blomblom/Artboard 1.png";
+import artboardTwo from "../images/blomblom/Artboard 2.png";
+import artboardThree from "../images/blomblom/Artboard 3.png";
+import artboardFour from "../images/blomblom/Artboard 4.png";
+import artboardFive from "../images/blomblom/Artboard 5.png";
+import artboardSix from "../images/blomblom/Artboard 6.png";
+import artboardSeven from "../images/blomblom/Artboard 7.png";
+import artboardEight from "../images/blomblom/Artboard 8.png";
+import artboardNine from "../images/blomblom/Artboard 9.png";
+import artboardTen from "../images/blomblom/Artboard 10.png";
+import artboardEleven from "../images/blomblom/Artboard 11.png";
+import artboardTwelve from "../images/blomblom/Artboard 12.png";
+import artboardThirteen from "../images/blomblom/Artboard 13.png";
+import vectorToLeft from "../images/blomblom/VectorToLeft.png";
+import vectorToBottom from "../images/blomblom/VectorToBottom.png";
+import vectorToBottomRight from "../images/blomblom/VectorToBottomRight.png";
 
 function BlomBlomPage() {
   return (
@@ -238,6 +255,154 @@ function BlomBlomPage() {
                 </ol>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="blom-high-fidelity-wireframe">
+        <div>
+          <h2>High Fidelity Wireframes</h2>
+          <p>
+            After gathering insights from our research sessions, we used the
+            feebacks to make high fidelity designs. And since this was an
+            existing product, the design leveraged on the existing design
+            direction and style guide. Here are some selected screens
+          </p>
+          <div className="blom-artboard-container">
+            <div className="blom-artboard-left">
+              <img src={artboardOne} alt="" />
+            </div>
+            <div className="blom-artboard-right">
+              <div className="blom-leftArrowVector">
+                <div>
+                  <img src={vectorToLeft} alt="" />
+                </div>
+                <div className="blom-leftArrowVector-Para">
+                  <div>
+                    Addition of the search field and a book appointment button
+                    on the navigation bar to aid customers eaily access these
+                    features
+                  </div>
+                  <br />
+                  <br />
+                  <div>
+                    <span>
+                      Addition of the search field and a book appointment button
+                      on the navigation bar to aid customers eaily access these
+                      feature
+                    </span>
+                    <img
+                      src={vectorToBottom}
+                      alt=""
+                      className="blom-bottomArrowVector"
+                    />
+                  </div>
+
+                  <div className="blom-artboardTwoImg">
+                    <img src={artboardTwo} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="blom-otherScreen">Other Screens</div>
+          <div className="blom-artboard-container">
+            <div className="blom-artboard-left">
+              <img src={artboardThree} alt="" />
+            </div>
+            <div className="blom-artboard-right">
+              <div className="blom-leftArrowVector">
+                <div>
+                  <img src={vectorToLeft} alt="" />
+                </div>
+                <div className="blom-leftArrowVector-Para">
+                  <div>
+                    A landing page that explains what they eye tests , who they
+                    are for, how they can get it done and the value it offers
+                  </div>
+                  <br />
+                  <br />
+                  <div>
+                    <span>
+                      On clicking on a book appointment page, a landing page for
+                      the particular store comes up, giving a brief view/tour of
+                      the store, directions and the stores opeening hours
+                    </span>
+                    <img
+                      src={vectorToBottomRight}
+                      alt=""
+                      className="blom-bottomRightArrowVector"
+                    />
+                  </div>
+                  <div className="blom-artboardFourImg">
+                    <img src={artboardFour} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="blom-appointment">Appointment Booking Screens</div>
+          <div className="appointment-section">
+            <div>
+              <img src={artboardFive} alt="" />
+            </div>
+            <div>
+              <img src={artboardSix} alt="" />
+            </div>
+            <div>
+              <img src={artboardSeven} alt="" />
+            </div>
+            <div>
+              <img src={artboardEight} alt="" />
+            </div>
+            <div>
+              <img src={artboardNine} alt="" />
+            </div>
+            <div>
+              <img src={artboardTen} alt="" />
+            </div>
+            <div>
+              <img src={artboardEleven} alt="" />
+            </div>
+          </div>
+
+          <div className="cancelAndResechedule-section">
+            <div>
+              <h3>Cancel Appointment</h3>
+              <div>
+                <img src={artboardTwelve} alt="" />
+              </div>
+            </div>
+            <div>
+              <h3>Reschedule</h3>
+              <div>
+                <img src={artboardThirteen} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="blom-key-takeaway-section">
+            <h2>Key Takeaways</h2>
+            <p>
+              - The importance of research cannot be overemphasized. I learnt
+              about the user behaviours of people in a different continent from
+              a different continent through research. I also learnt about how
+              artificial intelligence aids in the process of selection of
+              glasses which was really marvelling to me and i leanr how to
+              design a bit for AR. This is what many companies do and I was
+              excited to take part in it.
+              <br />
+              <br />- Although little iterations have been made on this design,
+              you can check it out here{" "}
+              <a href="https://bloobloom.com/" rel="noreferrer" target="_blank">
+                www.bloobloom.com
+              </a>
+            </p>
+          </div>
+
+          <div className="blom-pagination-container">
+            <Pagination />
           </div>
         </div>
       </div>
