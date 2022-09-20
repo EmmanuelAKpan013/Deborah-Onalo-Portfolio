@@ -337,7 +337,7 @@
 
 .blom-artboard-right {
   width: 50%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .blom-leftArrowVector {
@@ -356,10 +356,6 @@
   line-height: 24px;
   color: #ffffff;
   /* border: 1px solid red; */
-}
-
-.blom-leftArrowVector-Para > div {
-  border: 1px solid red;
 }
 
 .blom-bottomArrowVector {
