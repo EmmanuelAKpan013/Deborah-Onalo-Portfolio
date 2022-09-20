@@ -371,13 +371,21 @@ function BlomBlomPage() {
             <div>
               <h3>Cancel Appointment</h3>
               <div>
-                <img src={artboardTwelve} alt="" />
+                <img
+                  src={artboardTwelve}
+                  alt=""
+                  className="cancelAndResecheduleImg"
+                />
               </div>
             </div>
             <div>
               <h3>Reschedule</h3>
               <div>
-                <img src={artboardThirteen} alt="" />
+                <img
+                  src={artboardThirteen}
+                  alt=""
+                  className="cancelAndResecheduleImg"
+                />
               </div>
             </div>
           </div>
@@ -400,11 +408,10 @@ function BlomBlomPage() {
               </a>
             </p>
           </div>
-
-          <div className="blom-pagination-container">
-            <Pagination />
-          </div>
         </div>
+      </div>
+      <div className="blom-pagination-container">
+        <Pagination />
       </div>
     </>
   );

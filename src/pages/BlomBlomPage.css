@@ -291,8 +291,9 @@
 .blom-high-fidelity-wireframe {
   display: flex;
   justify-content: center;
-  height: 9150px;
-  /* height: auto; */
+  /* flex-direction: column; */
+  /* height: 9150px; */
+  height: auto;
 
   background: #052c8d;
 }
@@ -379,7 +380,7 @@
   font-weight: 400;
   font-size: 48px;
   color: #ffffff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .blom-bottomRightArrowVector {
@@ -387,7 +388,7 @@
 }
 
 .blom-artboardFourImg {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   margin-top: 40px;
 }
 
@@ -396,33 +397,51 @@
 }
 
 .blom-appointment {
-  position: relative;
-  top: 200px;
-  left: 75px;
+  /* position: relative; */
+  /* top: 200px; */
+  /* left: 75px; */
+  margin-top: 120px;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   color: #ffffff;
+  border: 1px solid red;
 }
 
 .appointment-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-  grid-row-gap: 2rem;
-  position: relative;
-  top: 250px;
+  grid-gap: 2rem;
+  margin-top: 60px;
+  border: 1px solid red;
+}
+
+.appointment-section > div {
+  border: 1px solid black;
+}
+
+.appointment-section > div > img {
+  width: 100%;
+  height: 100%;
 }
 
 .cancelAndResechedule-section {
-  position: relative;
-  top: 350px;
-  display: grid;
+  /* position: relative; */
+  /* top: 350px; */
+  margin-top: 100px;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  align-items: center;
+  align-items: center; */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+.cancelAndResechedule-section > div {
+  border: 1px solid yellow;
+  width: 45%;
 }
 
 .cancelAndResechedule-section > div > h3 {
@@ -434,17 +453,23 @@
   margin-bottom: 30px;
 }
 
+.cancelAndResecheduleImg {
+  width: 100%;
+}
+
 .blom-key-takeaway-section {
-  position: relative;
-  top: 450px;
-  left: 100px;
-  width: 45%;
+  /* position: relative; */
+  /* top: 450px; */
+  /* left: 100px; */
+  margin-top: 100px;
+  width: 70%;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  font-size: 15px;
+  line-height: 34px;
+  font-size: 20px;
   color: #ffffff;
+  border: 1px solid red;
 }
 
 .blom-key-takeaway-section > h2 {
@@ -452,7 +477,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
-  margin-bottom: 20px;
+  margin: 10px 0 20px 0;
 }
 
 .blom-key-takeaway-section > p > a {
@@ -460,6 +485,7 @@
 }
 
 .blom-pagination-container {
-  position: relative;
-  top: 500px;
+  background: #052c8d;
+  /* position: relative; */
+  /* top: 500px; */
 }
