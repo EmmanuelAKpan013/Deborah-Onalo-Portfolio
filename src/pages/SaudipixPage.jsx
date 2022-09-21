@@ -129,8 +129,6 @@ function SaudipixPage() {
           </div>
         </div>
       </div>
-      {/*
-
       <div className="saudipix-projectTimeline">
         <img src={projectTimeLine} alt="" />
       </div>
@@ -188,6 +186,8 @@ function SaudipixPage() {
           </div>
         </div>
       </div>
+      {/*
+
       <div className="saudipix-high-fidelity-wireframe">
         <h2>High Fidelity Wireframes</h2>
         <p>

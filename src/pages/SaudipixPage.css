@@ -152,12 +152,8 @@
   line-height: 36px;
 }
 
-.saudipix-projectTimeline {
-  position: relative;
-  width: 1585px;
-  height: 689px;
-  top: 1060px;
-  background: #1b2b35;
+.saudipix-projectTimeline > img {
+  width: 100%;
 }
 
 .saudipix-persona {
