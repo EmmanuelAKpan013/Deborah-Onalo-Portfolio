@@ -157,23 +157,27 @@
 }
 
 .saudipix-persona {
-  position: absolute;
-  width: 1585px;
-  height: 720px;
-  left: 0px;
-  top: 3670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -3px;
   color: #3a3d5b;
   background: #3fd080;
 }
 
+.saudipix-persona > div {
+  width: 80%;
+  margin: 100px 0;
+}
+
 .saudipix-persona-image-description {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  position: absolute;
-  top: 100px;
-  left: 160px;
-  right: 140px;
+  margin: 0 auto;
+}
+
+.saudipix-persona-image {
+  width: 20%;
 }
 
 .saudipix-persona-image > img {
@@ -181,21 +185,18 @@
 }
 
 .saudipix-persona-description {
-  margin: 20px 0 0 20px;
+  width: 80%;
   padding: 10px;
+  font-family: "Circular Std";
+  font-style: normal;
 }
 
 .saudipix-persona-description > h2 {
   margin-top: 7px;
-  font-family: "Circular Std";
-  font-style: normal;
   font-weight: 700;
-  font-size: 31.4401px;
 }
 
 .saudipix-persona-first-paragraph {
-  font-family: "Circular Std";
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -203,36 +204,29 @@
 
 .saudipix-card-container {
   display: flex;
-  position: relative;
-  top: 350px;
-  left: 242px;
+  margin-top: 20px;
 }
 
 .saudipix-card {
-  width: 439px;
-  height: 215px;
+  width: 50%;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   margin: 20px 10px;
   padding: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
 }
 
 .saudipix-card > h3 {
   font-family: "Recoleta";
-  font-style: normal;
-  font-weight: 400;
   font-size: 20px;
-  color: #000000;
 }
 
 .saudipix-card > ul {
   font-family: "Circular Std";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 28px;
   padding: 25px 15px;
-  color: #000000;
 }
 
 .saudipix-high-fidelity-wireframe {
