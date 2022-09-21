@@ -118,9 +118,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  /* width: 1585px; */
-  /* height: 656px; */
-  /* top: 1060px; */
   color: #1b2b35;
   background: #3fd080;
 }
@@ -130,12 +127,10 @@
   justify-content: space-between;
   margin: 100px 0;
   width: 80%;
-  border: 1px solid red;
 }
 
 .saudipix-myrole {
   width: 40%;
-  border: 1px solid black;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
@@ -155,7 +150,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;
-  border: 1px solid black;
 }
 
 .saudipix-projectTimeline {
