@@ -132,7 +132,6 @@ function SaudipixPage() {
       <div className="saudipix-projectTimeline">
         <img src={projectTimeLine} alt="" />
       </div>
-      {/* Next change */}
       <div className="saudipix-persona">
         <div>
           <div className="saudipix-persona-image-description">
@@ -189,59 +188,61 @@ function SaudipixPage() {
           </div>
         </div>
       </div>
-      {/*
-
       <div className="saudipix-high-fidelity-wireframe">
-        <h2>High Fidelity Wireframes</h2>
-        <p>
-          After gathering insights from our research sessions, we used the
-          feebacks to make high fidelity designs. And since this was an existing
-          product, the design leveraged on the existing design direction and
-          style guide. Here are some selected screens
-        </p>
-        <div className="saudipix-layoutDesign">
-          <div className="saudipix-left-right-layout">
-            <div>
-              <img src={homeImg} alt="" />
+        <div>
+          <h2>High Fidelity Wireframes</h2>
+          <p>
+            After gathering insights from our research sessions, we used the
+            feebacks to make high fidelity designs. And since this was an
+            existing product, the design leveraged on the existing design
+            direction and style guide. Here are some selected screens
+          </p>
+          <div className="saudipix-layoutDesign">
+            <div className="saudipix-left-right-layout">
+              <div>
+                <img src={homeImg} alt="" />
+              </div>
+              <div>
+                <p className="saudipix-layout-shorttext">
+                  Searching for an image
+                </p>
+                <img src={contentImg} alt="" />
+              </div>
+              <div>
+                <img src={missionPageImg} alt="" />
+              </div>
+              <div>
+                <img src={leaderBoardImg} alt="" />
+              </div>
             </div>
-            <div>
-              <p className="saudipix-layout-shorttext">
-                Searching for an image
-              </p>
-              <img src={contentImg} alt="" />
-            </div>
-            <div>
-              <img src={missionPageImg} alt="" />
-            </div>
-            <div>
-              <img src={leaderBoardImg} alt="" />
-            </div>
-          </div>
 
-          <div className="saudipix-left-right-layout">
-            <div>
-              <img src={userSignupImg} alt="" />
+            <div className="saudipix-left-right-layout">
+              <div>
+                <img src={userSignupImg} alt="" />
+              </div>
+              <div>
+                <p className="saudipix-layout-shorttext">Login Screen</p>
+                <img src={userLoginImg} alt="" />
+              </div>
+              <div>
+                <p className="saudipix-layout-shorttext">Mission Details</p>
+                <img src={missionDetailsImg} alt="" />
+              </div>
+              <div>
+                <img src={accountSettingImg} alt="" />
+              </div>
+              <div>
+                <img src={profileEditImg} alt="" />
+              </div>
             </div>
-            <div>
-              <p className="saudipix-layout-shorttext">Login Screen</p>
-              <img src={userLoginImg} alt="" />
+            <div className="saudipix-bottom-layout">
+              <img src={invoicesImg} alt="" />
             </div>
-            <div>
-              <p className="saudipix-layout-shorttext">Mission Details</p>
-              <img src={missionDetailsImg} alt="" />
-            </div>
-            <div>
-              <img src={accountSettingImg} alt="" />
-            </div>
-            <div>
-              <img src={profileEditImg} alt="" />
-            </div>
-          </div>
-          <div className="saudipix-bottom-layout">
-            <img src={invoicesImg} alt="" />
           </div>
         </div>
       </div>
+      {/*
+
       <div className="saudipix-pagination-container">
         <Pagination />
       </div>{" "}

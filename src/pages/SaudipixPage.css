@@ -230,18 +230,19 @@
 }
 
 .saudipix-high-fidelity-wireframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  width: 1585px;
-  height: 6340px;
-  left: 0px;
-  top: 1780px;
   background: #ffffff;
 }
 
-.saudipix-high-fidelity-wireframe > h2 {
-  position: relative;
-  left: 143px;
-  top: 80px;
+.saudipix-high-fidelity-wireframe > div {
+  width: 80%;
+  margin: 100px 0;
+}
+
+.saudipix-high-fidelity-wireframe > div > h2 {
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
@@ -250,26 +251,21 @@
   color: #224c44;
 }
 
-.saudipix-high-fidelity-wireframe > p {
-  position: relative;
-  left: 143px;
-  top: 90px;
-  width: 50%;
+.saudipix-high-fidelity-wireframe > div > p {
+  margin-top: 30px;
+  width: 60%;
   font-family: "Circular Std";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
   line-height: 24px;
   color: #224c44;
 }
 
 .saudipix-layoutDesign {
-  position: relative;
-  top: 120px;
-  left: 143px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 80%;
+  grid-gap: 2rem;
 }
 
 .saudipix-bottom-layout {
@@ -287,6 +283,10 @@
 
 .saudipix-left-right-layout > div {
   margin-bottom: 40px;
+}
+
+.saudipix-left-right-layout > div > img {
+  width: 100%;
 }
 
 .saudipix-pagination-container {
