@@ -1,0 +1,320 @@
+.saudipixLandingImageAndLogo {
+  position: relative;
+  width: 1595px;
+  height: 515px;
+  top: 116px;
+}
+
+.saudipixFirstImage {
+  width: 1585px;
+  height: 515px;
+}
+
+.saudipix-logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1585px;
+  height: 515px;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.saudipix-roleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 199px;
+  left: 0px;
+  top: 630px;
+  color: white;
+  background: #1c1b1b;
+  font-family: "DM Sans";
+  font-style: normal;
+}
+.saudipix-roleContent > h3 {
+  font-weight: 700;
+}
+
+.saudipix-roleContent > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.saudipix-miniIpad-section {
+  text-align: center;
+  position: relative;
+  width: 1585px;
+  height: 750px;
+  top: 310px;
+  background: #1b2b35;
+}
+
+.saudipix-miniIpad-section > div {
+  position: relative;
+  top: 120px;
+}
+
+.saudipix-background-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 1585px;
+  height: 762px;
+  left: 0px;
+  top: 1570px;
+  background: #ffffff;
+}
+
+.saudipix-background-large-text {
+  position: relative;
+  top: -65px;
+  left: 45px;
+  width: 30%;
+  height: 400px;
+}
+
+.saudipix-background-large-text h2 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 84px;
+  color: rgba(75, 75, 75, 0.5);
+}
+
+.saudipix-background-paragraph {
+  position: relative;
+  right: 85px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: auto;
+  color: #000;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.saudipix-para {
+  padding: 0px 20px 20px 20px;
+}
+
+.saudipix-para h4 {
+  margin: 10px 0;
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #febc2c;
+}
+
+.saudipix-problemAndSolution {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #49555d;
+  margin: 10px 0;
+}
+
+.saudipix-myroleandsolution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1585px;
+  height: 656px;
+  top: 1060px;
+  color: #1b2b35;
+  background: #3fd080;
+}
+
+.saudipix-myrole {
+  width: 40%;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76px;
+  margin-bottom: 30px;
+}
+
+.saudipix-myrole > h4 {
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #febc2c;
+  margin-bottom: 30px;
+}
+
+.saudipix-myrolepara {
+  width: 40%;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.saudipix-projectTimeline {
+  position: relative;
+  width: 1585px;
+  height: 689px;
+  top: 1060px;
+  background: #1b2b35;
+}
+
+.saudipix-persona {
+  position: absolute;
+  width: 1585px;
+  height: 720px;
+  left: 0px;
+  top: 3670px;
+  color: #3a3d5b;
+  background: #3fd080;
+}
+
+.saudipix-persona-image-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 160px;
+  right: 140px;
+}
+
+.saudipix-persona-image > img {
+  border-radius: 50%;
+}
+
+.saudipix-persona-description {
+  margin: 20px 0 0 20px;
+  padding: 10px;
+}
+
+.saudipix-persona-description > h2 {
+  margin-top: 7px;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.4401px;
+}
+
+.saudipix-persona-first-paragraph {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.saudipix-card-container {
+  display: flex;
+  position: relative;
+  top: 350px;
+  left: 242px;
+}
+
+.saudipix-card {
+  width: 439px;
+  height: 215px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.saudipix-card > h3 {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.saudipix-card > ul {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 25px 15px;
+  color: #000000;
+}
+
+.saudipix-high-fidelity-wireframe {
+  position: relative;
+  width: 1585px;
+  height: 6340px;
+  left: 0px;
+  top: 1780px;
+  background: #ffffff;
+}
+
+.saudipix-high-fidelity-wireframe > h2 {
+  position: relative;
+  left: 143px;
+  top: 80px;
+  font-family: "Argue DEMO";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 64px;
+  color: #224c44;
+}
+
+.saudipix-high-fidelity-wireframe > p {
+  position: relative;
+  left: 143px;
+  top: 90px;
+  width: 50%;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #224c44;
+}
+
+.saudipix-layoutDesign {
+  position: relative;
+  top: 120px;
+  left: 143px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+}
+
+.saudipix-bottom-layout {
+  grid-column: 1/3;
+}
+
+.saudipix-layout-shorttext {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #3d2e2e;
+  margin-bottom: 10px;
+}
+
+.saudipix-left-right-layout > div {
+  margin-bottom: 40px;
+}
+
+.saudipix-pagination-container {
+  position: relative;
+  top: 1780px;
+  height: 250px;
+  background: #000;
+}
