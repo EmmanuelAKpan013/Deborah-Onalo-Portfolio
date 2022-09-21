@@ -51,17 +51,15 @@
 }
 
 .saudipix-miniIpad-section {
-  text-align: center;
-  position: relative;
-  width: 1585px;
-  height: 750px;
-  top: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
   background: #1b2b35;
 }
 
 .saudipix-miniIpad-section > div {
-  position: relative;
-  top: 120px;
+  margin: 100px 0;
 }
 
 .saudipix-background-section {

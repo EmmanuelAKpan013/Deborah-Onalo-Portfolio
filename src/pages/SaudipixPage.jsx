@@ -65,13 +65,14 @@ function SaudipixPage() {
           <p>3 days</p>
         </div>
       </div>
-      {/*
       <div className="saudipix-miniIpad-section">
         <div>
           <img src={miniIpad} alt="" />
           <img src={iphonedesign} alt="" />
         </div>
       </div>
+      {/*
+
       <div className="saudipix-background-section">
         <div className="saudipix-background-large-text">
           <h2>Background</h2>
