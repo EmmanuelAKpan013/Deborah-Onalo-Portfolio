@@ -45,7 +45,7 @@ function SaudipixPage() {
           <img src={saudipixLogo} alt="" />
         </div>
       </div>
-      {/* <div className="saudipix-roleContainer">
+      <div className="saudipix-roleContainer">
         <div className="saudipix-roleContent">
           <h3>ROLE</h3>
           <br />
@@ -65,6 +65,7 @@ function SaudipixPage() {
           <p>3 days</p>
         </div>
       </div>
+      {/*
       <div className="saudipix-miniIpad-section">
         <div>
           <img src={miniIpad} alt="" />
@@ -127,7 +128,6 @@ function SaudipixPage() {
       <div className="saudipix-projectTimeline">
         <img src={projectTimeLine} alt="" />
       </div>
-
       <div className="saudipix-persona">
         <div className="saudipix-persona-image-description">
           <div className="saudipix-persona-image">
@@ -235,7 +235,8 @@ function SaudipixPage() {
       </div>
       <div className="saudipix-pagination-container">
         <Pagination />
-      </div> */}
+      </div>{" "}
+      */}
     </>
   );
 }
