@@ -45,7 +45,7 @@ function SaudipixPage() {
           <img src={saudipixLogo} alt="" />
         </div>
       </div>
-      <div className="saudipix-roleContainer">
+      {/* <div className="saudipix-roleContainer">
         <div className="saudipix-roleContent">
           <h3>ROLE</h3>
           <br />
@@ -235,7 +235,7 @@ function SaudipixPage() {
       </div>
       <div className="saudipix-pagination-container">
         <Pagination />
-      </div>
+      </div> */}
     </>
   );
 }
