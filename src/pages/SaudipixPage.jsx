@@ -105,29 +105,32 @@ function SaudipixPage() {
           </div>
         </div>
       </div>
-      {/*
-
       <div className="saudipix-myroleandsolution">
-        <div className="saudipix-myrole">
-          <h4>03</h4>
-          <p>My Role & Approach to Solution</p>
-        </div>
-        <div className="saudipix-myrolepara">
-          <p>
-            I worked with another designer on this project, and we started our
-            design process with research, then we deep dived into the platform
-            to experience ourselves. We wanted to get a sense of what the users
-            had been dealing with so far, positive and negative feedback alike.
-            We also conducted competitor analysis and learnt and ddocumented
-            about how these problems had been solved by other competitors.
-            <br /> <br />
-            Now the major goal in this project was to improve the user interface
-            as it was a bit quite old and to improve the user experience.
-            because it was an existing product, we leveraged on the brand
-            guidelines already provided.
-          </p>
+        <div>
+          <div className="saudipix-myrole">
+            <h4>03</h4>
+            <p>My Role & Approach to Solution</p>
+          </div>
+          <div className="saudipix-myrolepara">
+            <p>
+              I worked with another designer on this project, and we started our
+              design process with research, then we deep dived into the platform
+              to experience ourselves. We wanted to get a sense of what the
+              users had been dealing with so far, positive and negative feedback
+              alike. We also conducted competitor analysis and learnt and
+              ddocumented about how these problems had been solved by other
+              competitors.
+              <br /> <br />
+              Now the major goal in this project was to improve the user
+              interface as it was a bit quite old and to improve the user
+              experience. because it was an existing product, we leveraged on
+              the brand guidelines already provided.
+            </p>
+          </div>
         </div>
       </div>
+      {/*
+
       <div className="saudipix-projectTimeline">
         <img src={projectTimeLine} alt="" />
       </div>
