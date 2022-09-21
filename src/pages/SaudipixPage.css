@@ -30,11 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* position: absolute; */
-  /* width: 1585px; */
-  /* height: 199px; */
-  /* left: 0px; */
-  /* top: 630px; */
   margin-top: -1px;
   padding: 20px 0;
   color: white;
@@ -64,22 +59,16 @@
 
 .saudipix-background-section {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 762px;
-  left: 0px;
-  top: 1570px;
+  justify-content: center;
+  height: auto;
   background: #ffffff;
 }
 
-.saudipix-background-large-text {
-  position: relative;
-  top: -65px;
-  left: 45px;
-  width: 30%;
-  height: 400px;
+.saudipix-background-section > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  width: 80%;
 }
 
 .saudipix-background-large-text h2 {
@@ -91,11 +80,9 @@
 }
 
 .saudipix-background-paragraph {
-  position: relative;
-  right: 85px;
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   height: auto;
   color: #000;
   font-family: "Circular Std";
@@ -106,7 +93,7 @@
 }
 
 .saudipix-para {
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 0 0;
 }
 
 .saudipix-para h4 {
@@ -114,7 +101,6 @@
   font-family: "Recoleta";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
   color: #febc2c;
 }
 

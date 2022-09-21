@@ -71,40 +71,42 @@ function SaudipixPage() {
           <img src={iphonedesign} alt="" />
         </div>
       </div>
-      {/*
-
       <div className="saudipix-background-section">
-        <div className="saudipix-background-large-text">
-          <h2>Background</h2>
-        </div>
-        <div className="saudipix-background-paragraph">
-          <div className="saudipix-para">
-            <h4>01</h4>
-            <p className="problemAndSolution">Problem</p>
-            <p>
-              Arabians are a minority group that often feels misrepresented in
-              the media. This makes it difficult to find quality images that
-              accurately represent them and their culture for use in their
-              digital solutions. Saudipix's images solve this problem by
-              creating a library of Arabian-made photos curated specifically for
-              Arabs, making it easier for them to tell the stories they want to
-              tell.
-            </p>
-            <br />
+        <div>
+          <div className="saudipix-background-large-text">
+            <h2>Background</h2>
           </div>
-          <div className="saudipix-para">
-            <h4>02</h4>
-            <p className="saudipix-problemAndSolution">Solution</p>
-            <p>
-              Provide a product that provides these pictures that are culturally
-              aligned and acceptable exclusively for Arabians and by Arabians.
-              Encourage them to post arabian pictures by engaging in weekly
-              competitions that have good prizes and awarding top contributors
-              per month.
-            </p>
+          <div className="saudipix-background-paragraph">
+            <div className="saudipix-para">
+              <h4>01</h4>
+              <p className="saudipix-problemAndSolution">Problem</p>
+              <p>
+                Arabians are a minority group that often feels misrepresented in
+                the media. This makes it difficult to find quality images that
+                accurately represent them and their culture for use in their
+                digital solutions. Saudipix's images solve this problem by
+                creating a library of Arabian-made photos curated specifically
+                for Arabs, making it easier for them to tell the stories they
+                want to tell.
+              </p>
+              <br />
+            </div>
+            <div className="saudipix-para">
+              <h4>02</h4>
+              <p className="saudipix-problemAndSolution">Solution</p>
+              <p>
+                Provide a product that provides these pictures that are
+                culturally aligned and acceptable exclusively for Arabians and
+                by Arabians. Encourage them to post arabian pictures by engaging
+                in weekly competitions that have good prizes and awarding top
+                contributors per month.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      {/*
+
       <div className="saudipix-myroleandsolution">
         <div className="saudipix-myrole">
           <h4>03</h4>
