@@ -71,7 +71,7 @@ function InvestNowPage() {
           <p>3 days</p>
         </div>
       </div>
-      <div className="investNow-layoutDesign">
+      {/* <div className="investNow-layoutDesign">
         <div>
           <img src={investNowFirstIphoneDesign} alt="" />
         </div>
@@ -85,11 +85,9 @@ function InvestNowPage() {
           <img src={investNowFourthIphoneDesign} alt="" />
         </div>
         <div>
-          {/* <img src={investNowFifthIphoneDesign} alt="" /> */}
           <img src={investNowSecondIphoneDesign} alt="" />
         </div>
         <div>
-          {/* <img src={investNowSixthIphoneDesign} alt="" /> */}
           <img src={investNowSecondIphoneDesign} alt="" />
         </div>
         <div className="investNow-layoutDesign-lastContainer">
@@ -102,7 +100,7 @@ function InvestNowPage() {
             profits and cut down losses.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="invest-work-overview">
         <div className="invest-work-over-text">
