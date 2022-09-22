@@ -51,7 +51,7 @@ function InvestNowPage() {
           <img src={investNowLogo} alt="" />
         </div>
       </div>
-      <div className="investNow-roleContainer">
+      {/* <div className="investNow-roleContainer">
         <div className="investNow-roleContent">
           <h3>ROLE</h3>
           <br />
@@ -70,7 +70,7 @@ function InvestNowPage() {
           <br />
           <p>3 days</p>
         </div>
-      </div>
+      </div> */}
       {/* <div className="investNow-layoutDesign">
         <div>
           <img src={investNowFirstIphoneDesign} alt="" />
