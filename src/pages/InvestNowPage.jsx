@@ -71,36 +71,62 @@ function InvestNowPage() {
           <p>3 days</p>
         </div>
       </div>
-      {/* <div className="investNow-layoutDesign">
+      <div className="investNow-layoutDesign">
         <div>
-          <img src={investNowFirstIphoneDesign} alt="" />
+          <div>
+            <img
+              src={investNowFirstIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div>
+            <img
+              src={investNowSecondIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div>
+            <img
+              src={investNowThirdIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div>
+            <img
+              src={investNowFourthIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div>
+            <img
+              src={investNowSecondIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div>
+            <img
+              src={investNowSecondIphoneDesign}
+              alt=""
+              className="investNowLayoutImg"
+            />
+          </div>
+          <div className="investNow-layoutDesign-lastContainer">
+            <h3>InvestNow</h3>
+            <br />
+            <p>
+              Investnow is an Integrated online web and mobile apps platform
+              powered by United Capital Plc, that enables you to have complete
+              management over your investment and financial portfolio to
+              maximize profits and cut down losses.
+            </p>
+          </div>
         </div>
-        <div>
-          <img src={investNowSecondIphoneDesign} alt="" />
-        </div>
-        <div>
-          <img src={investNowThirdIphoneDesign} alt="" />
-        </div>
-        <div>
-          <img src={investNowFourthIphoneDesign} alt="" />
-        </div>
-        <div>
-          <img src={investNowSecondIphoneDesign} alt="" />
-        </div>
-        <div>
-          <img src={investNowSecondIphoneDesign} alt="" />
-        </div>
-        <div className="investNow-layoutDesign-lastContainer">
-          <h3>InvestNow</h3>
-          <br />
-          <p>
-            Investnow is an Integrated online web and mobile apps platform
-            powered by United Capital Plc, that enables you to have complete
-            management over your investment and financial portfolio to maximize
-            profits and cut down losses.
-          </p>
-        </div>
-      </div> */}
+      </div>
       {/* <div className="invest-work-overview">
         <div className="invest-work-over-text">
           <h2>

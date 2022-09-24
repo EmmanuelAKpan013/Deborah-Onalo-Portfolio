@@ -40,20 +40,32 @@
 }
 
 .investNow-layoutDesign {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  width: 1585px;
-  height: 791px;
-  left: 0px;
-  top: 828px;
+  /* width: 1585px; */
+  /* height: 791px; */
+  /* left: 0px; */
+  /* top: 828px; */
   background: #e80000;
 }
 
 .investNow-layoutDesign > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  border: 1px solid black;
+}
+
+.investNowLayoutImg {
+  width: 90%;
+}
+
+/* .investNow-layoutDesign > div > div {
   text-align: center;
   border: 1px solid blue;
-}
+} */
 
 .investNow-layoutDesign-lastContainer {
   grid-column: 3/5;
