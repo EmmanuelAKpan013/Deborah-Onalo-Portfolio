@@ -24,17 +24,22 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 199px;
-  left: 0px;
-  top: 630px;
+  margin-top: -1px;
+  padding: 20px 0;
   color: white;
   background: #1c1b1b;
   font-family: "DM Sans";
   font-style: normal;
 }
-.investNow-roleContent > h3 {
+
+.investNow-roleContent {
+  width: auto;
+  height: auto;
+  margin: 30px;
+  padding: 10px;
+}
+
+/* .investNow-roleContent > h3 {
   font-weight: 700;
 }
 
@@ -42,7 +47,7 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-}
+} */
 
 .investNow-layoutDesign {
   display: grid;
