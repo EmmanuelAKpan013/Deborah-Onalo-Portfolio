@@ -127,34 +127,36 @@ function InvestNowPage() {
           </div>
         </div>
       </div>
-      {/* <div className="invest-work-overview">
-        <div className="invest-work-over-text">
-          <h2>
-            Work <br />
-            OVerview
-          </h2>
-        </div>
-        <div className="invest-work-over-text-para">
-          <div className="invest-solution">
-            <h4>Problem</h4>
-            <p>
-              A typical workflow in the healthcare industry is still paper based
-              and it requires a lot of time and manual tracking for enrolling
-              patients and medications.
-            </p>
+      <div className="invest-work-overview">
+        <div>
+          <div className="invest-work-over-text">
+            <h2>
+              Work <br />
+              OVerview
+            </h2>
           </div>
-          <br />
-          <br />
-          <div className="invest-solution">
-            <h4>Solution</h4>
-            <p>
-              The goal is for Nomad Bank to offer a digital solution that is SME
-              focused Digital Banking and Unlocks Working Capital for these
-              MSMEs.
-            </p>
+          <div className="invest-work-over-text-para">
+            <div className="invest-solution">
+              <h4>Problem</h4>
+              <p>
+                A typical workflow in the healthcare industry is still paper
+                based and it requires a lot of time and manual tracking for
+                enrolling patients and medications.
+              </p>
+            </div>
+            <br />
+            <br />
+            <div className="invest-solution">
+              <h4>Solution</h4>
+              <p>
+                The goal is for Nomad Bank to offer a digital solution that is
+                SME focused Digital Banking and Unlocks Working Capital for
+                these MSMEs.
+              </p>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* <div className="invest-research">
         <div className="invest-research-header-and-image">
           <div className="invest-research-header">

@@ -43,11 +43,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  /* width: 1585px; */
-  /* height: 791px; */
-  /* left: 0px; */
-  /* top: 828px; */
   background: #e80000;
 }
 
@@ -90,27 +85,37 @@
 .invest-work-overview {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  position: absolute;
-  width: 1585px;
-  height: 570px;
-  left: 0px;
-  top: 1618px;
+  justify-content: center;
+  /* position: absolute; */
+  /* width: 1585px; */
+  /* height: 570px; */
+  /* left: 0px; */
+  /* top: 1618px; */
   background: #1b1b1c;
   color: #ffffff;
 }
 
+.invest-work-overview > div {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px 0;
+  border: 1px solid red;
+}
+
 .invest-work-over-text {
-  width: 30%;
-  height: 400px;
-  position: relative;
-  top: -63px;
-  left: 45px;
+  width: 40%;
+  /* height: 400px; */
+  /* position: relative; */
+  /* top: -63px; */
+  /* left: 45px; */
+  border: 1px solid red;
 }
 
 .invest-work-over-text h2 {
-  position: relative;
-  top: 110px;
+  /* position: relative; */
+  /* top: 110px; */
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
@@ -118,14 +123,15 @@
 }
 
 .invest-work-over-text-para {
-  position: relative;
-  right: 30px;
-  width: 45%;
+  /* position: relative; */
+  /* right: 30px; */
+  width: 50%;
   height: auto;
   font-family: "Circular Std";
   font-style: normal;
   line-height: 32px;
   color: #ffffff;
+  border: 1px solid red;
 }
 
 .invest-solution {
