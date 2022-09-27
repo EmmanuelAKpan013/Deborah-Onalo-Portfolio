@@ -138,10 +138,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  /* width: 1585px; */
   height: 793px;
-  /* left: 0px; */
-  /* top: 2180px; */
   background: #ffffff;
 }
 
@@ -150,14 +147,12 @@
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  border: 1px solid red;
 }
 
 .invest-research-header-and-image {
   display: flex;
   flex-direction: column;
   width: 40%;
-  border: 1px solid yellow;
 }
 
 .invest-research-header h4 {
@@ -197,7 +192,6 @@
   width: 50%;
   color: #e0e0e0;
   line-height: 24px;
-  border: 1px solid red;
 }
 
 .invest-para-wrapper {
