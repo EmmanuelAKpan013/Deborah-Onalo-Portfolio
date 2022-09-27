@@ -50,17 +50,11 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 80%;
-  /* border: 1px solid black; */
 }
 
 .investNowLayoutImg {
   width: 90%;
 }
-
-/* .investNow-layoutDesign > div > div {
-  text-align: center;
-  border: 1px solid blue;
-} */
 
 .investNow-layoutDesign-lastContainer {
   grid-column: 3/5;
@@ -172,10 +166,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-}
-
-.invest-research-image > div {
-  border: 1px solid red;
 }
 
 .image-box > img {
