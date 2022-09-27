@@ -157,66 +157,69 @@ function InvestNowPage() {
           </div>
         </div>
       </div>
-      {/* <div className="invest-research">
-        <div className="invest-research-header-and-image">
-          <div className="invest-research-header">
-            <h4>03</h4>
+      <div className="invest-research">
+        <div>
+          <div className="invest-research-header-and-image">
+            <div className="invest-research-header">
+              <h4>03</h4>
+              <br />
+              <h2>Research</h2>
+            </div>
+            <div className="invest-research-image">
+              <div className="image-box image-box-1">
+                <img src={researchLadyOne} alt="" />
+              </div>
+              <div className=" image-box image-box-2">
+                <img src={researchManOne} alt="" />
+              </div>
+              <div className="image-box image-box-3">
+                <img src={researchLadyTwo} alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="invest-research-para">
+            <div className="invest-para-wrapper">
+              <div className="invest-competitorAnalysis">
+                <div className="invest-competitor-line-container">
+                  <hr className="invest-competitor-line" />
+                </div>
+
+                <div className="invest-analysis-container">
+                  <h4>Interviews</h4>
+                </div>
+              </div>
+              <div>
+                <p>
+                  Our team identified the challenges that users were facing by
+                  observing users use the product, conducting an in-depth
+                  analysis of online reviews, and diving into the platform
+                  ourselves
+                </p>
+              </div>
+            </div>
             <br />
-            <h2>Research</h2>
-          </div>
-          <div className="invest-research-image">
-            <div className="image-box image-box-1">
-              <img src={researchLadyOne} alt="" />
-            </div>
-            <div className=" image-box image-box-2">
-              <img src={researchManOne} alt="" className="manImage" />
-            </div>
-            <div className="image-box image-box-3">
-              <img src={researchLadyTwo} alt="" />
+            <div className="invest-para-wrapper">
+              <div className="invest-competitorAnalysis">
+                <div className="invest-competitor-line-container">
+                  <hr className="invest-competitor-line" />
+                </div>
+
+                <div className="invest-analysis-container">
+                  <h4>Competitor Analysis</h4>
+                </div>
+              </div>
+              <div>
+                <p>
+                  Additionally, we conducted competitor analysis and discovered
+                  how cumbersome our product, especially in comparison with
+                  other similar products, was to use, thus the lack of interest
+                  on the part of users to continue using it.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="invest-research-para">
-          <div className="invest-para-wrapper">
-            <div className="invest-competitorAnalysis">
-              <div className="invest-competitor-line-container">
-                <hr className="invest-competitor-line" />
-              </div>
-
-              <div className="invest-analysis-container">
-                <h4>Interviews</h4>
-              </div>
-            </div>
-            <div>
-              <p>
-                Our team identified the challenges that users were facing by
-                observing users use the product, conducting an in-depth analysis
-                of online reviews, and diving into the platform ourselves
-              </p>
-            </div>
-          </div>
-          <br />
-          <div className="invest-para-wrapper">
-            <div className="invest-competitorAnalysis">
-              <div className="invest-competitor-line-container">
-                <hr className="invest-competitor-line" />
-              </div>
-
-              <div className="invest-analysis-container">
-                <h4>Competitor Analysis</h4>
-              </div>
-            </div>
-            <div>
-              <p>
-                Additionally, we conducted competitor analysis and discovered
-                how cumbersome our product, especially in comparison with other
-                similar products, was to use, thus the lack of interest on the
-                part of users to continue using it.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      </div>
       {/* <div className="invest-myroleandsolution">
         <div className="invest-myrole">
           <p>My Role & Approach to Solution</p>
