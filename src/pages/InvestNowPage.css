@@ -194,11 +194,7 @@
 }
 
 .invest-research-para {
-  /* position: relative; */
-  /* top: 80px; */
-  /* right: 20px; */
   width: 50%;
-  /* height: 400px; */
   color: #e0e0e0;
   line-height: 24px;
   border: 1px solid red;
@@ -209,14 +205,11 @@
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 500;
-  /* font-size: 15px; */
   color: #1b1b1c;
   line-height: 24px;
-  border: 1px solid blue;
 }
 
 .invest-competitorAnalysis {
-  /* position: relative; */
   display: flex;
   color: #000;
 }
