@@ -243,128 +243,145 @@ function InvestNowPage() {
           </div>
         </div>
       </div>
-      {/* <div className="invest-redesign">
-        <p className="invest-redesign-header">Redesign</p>
-        <p className="invest-redesign-splash">Splash Screens</p>
-        <div className="invest-redesign-oldandnew">
-          <div className="invest-redesign-oldDesign">
-            <p>Old Design</p>
-            <img src={investOldDesign} alt="" />
-          </div>
+      <div className="invest-redesign">
+        <div>
+          <p className="invest-redesign-header">Redesign</p>
+          <p className="invest-redesign-splash">Splash Screens</p>
+          <div className="invest-redesign-oldandnew">
+            <div className="invest-redesign-oldDesign">
+              <p>Old Design</p>
+              <div>
+                <img src={investOldDesign} alt="" className="" />
+              </div>
+            </div>
 
-          <div className="invest-redesign-newDesign">
-            <p>New Design</p>
-            <img src={investnewDesign} alt="" />
-            <img src={investnewDesign2} alt="" />
-          </div>
-        </div>
-        <div className="invest-onboarding-design">
-          <p className="invest-onboarding-text">Onboarding Design</p>
-          <div className="invest-onboarding-old">
-            <p>Old Design</p>
-            <br />
-            <div className="invest-onboarding-completeOldDesigns">
-              <div>
-                <img src={investOnboarding1} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding2} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding3} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding4} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding5} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding6} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding7} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding8} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding9} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding10} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding11} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding12} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding13} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding14} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding15} alt="" />
+            <div className="invest-redesign-newDesign">
+              <p>New Design</p>
+              <div className="invest_redesign-new">
+                <div>
+                  <img src={investnewDesign} alt="" />
+                </div>
+                <div>
+                  <img src={investnewDesign2} alt="" />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          <div className="invest-onboarding-design">
+            <p className="invest-onboarding-text">Onboarding Design</p>
+            <div className="invest-onboarding-old">
+              <p>Old Design</p>
+              <br />
+              <div className="invest-onboarding-completeOldDesigns">
+                <div>
+                  <img src={investOnboarding1} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding2} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding3} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding4} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding5} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding6} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding7} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding8} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding9} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding10} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding11} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding12} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding13} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding14} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding15} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div className="invest-onboarding-design-new">
-          <p className="invest-onboarding-text">
-            New Simplified Onboarding Process/Screens
-          </p>
-          <div className="invest-onboarding-new">
-            <p>
-              The onborading process was reduced to just 3 steps where all you
-              needed was your fullname, email address and phone number and you
-              have access to the portal, unlike the previous process that takes
-              you through about 15 steps before you get access to the portal.
+          <div className="invest-onboarding-design-new">
+            <p className="invest-onboarding-text">
+              New Simplified Onboarding Process/Screens
             </p>
-            <div className="invest-onboarding-completeNewDesigns">
-              <div>
-                <img src={investOnboarding16} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding17} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding18} alt="" />
-              </div>
-              <div>
-                <img src={investOnboarding19} alt="" />
+            <div className="invest-onboarding-new">
+              <p>
+                The onborading process was reduced to just 3 steps where all you
+                needed was your fullname, email address and phone number and you
+                have access to the portal, unlike the previous process that
+                takes you through about 15 steps before you get access to the
+                portal.
+              </p>
+              <div className="invest-onboarding-completeNewDesigns">
+                <div>
+                  <img src={investOnboarding16} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding17} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding18} alt="" />
+                </div>
+                <div>
+                  <img src={investOnboarding19} alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div> */}
-      {/* <div className="invest-prototype">
-        <p className="invest-prototype-header">Prototype</p>
-        <p className="invest-prototype-shortnote">
-          A lot more of the design is in the prototype which you can view here :{" "}
-          <a
-            className="invest-prototype-link"
-            href="https://www.figma.com/proto/bWKLc5McNt3x5NU2CCG61m/REDESIGN-OF-INVESTNOW-APP?page-id=10%3A220&node-id=36%3A1907&viewport=241%2C48%2C0.1&scaling=scale-down&starting-point-node-id=36%3A1883"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Prototype Link
-          </a>
-        </p>
-      </div> */}
-      {/* <div className="invest-key-takeaway-section">
-        <h2>Key Takeaways</h2>
-        <p>
-          - The importance of userfeedback cannot be overemphasized. It helped
-          me understand user behaviours better
-        </p>
-        <div className="invest-pagination-container">
-          <Pagination />
+      </div>
+      <div className="invest-prototype">
+        <div>
+          <p className="invest-prototype-header">Prototype</p>
+          <p className="invest-prototype-shortnote">
+            A lot more of the design is in the prototype which you can view here
+            :{" "}
+            <a
+              className="invest-prototype-link"
+              href="https://www.figma.com/proto/bWKLc5McNt3x5NU2CCG61m/REDESIGN-OF-INVESTNOW-APP?page-id=10%3A220&node-id=36%3A1907&viewport=241%2C48%2C0.1&scaling=scale-down&starting-point-node-id=36%3A1883"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Prototype Link
+            </a>
+          </p>
         </div>
-      </div> */}
+      </div>
+      <div className="invest-key-takeaway-section">
+        <div>
+          <h2>Key Takeaways</h2>
+          <p>
+            - The importance of userfeedback cannot be overemphasized. It helped
+            me understand user behaviours better
+          </p>
+        </div>
+      </div>
+
+      <div className="invest-pagination-container">
+        <Pagination />
+      </div>
     </>
   );
 }
