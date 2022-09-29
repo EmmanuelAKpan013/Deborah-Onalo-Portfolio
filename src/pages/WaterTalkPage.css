@@ -51,7 +51,6 @@
   margin: 100px 0;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 
 .water-bg-text {
@@ -61,12 +60,10 @@
   font-weight: 400;
   font-size: 84px;
   color: #ffffff;
-  border: 1px solid white;
 }
 
 .water-bg-para {
   width: 50%;
-  border: 1px solid white;
 }
 
 .water-bg-line-and-aboutWaterTalk {
@@ -80,7 +77,6 @@
 
 .water-insight-line {
   width: 32px;
-  border: 2px solid #f2f2f2;
 }
 
 .water-bg-aboutWaterTalk {
@@ -114,7 +110,6 @@
 .water-wireframe > div {
   width: 80%;
   margin: 100px 0;
-  border: 1px solid red;
 }
 
 .water-wireframe-images {
@@ -122,10 +117,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   margin-top: 20px;
-}
-
-.water-wireframe-images > div {
-  border: 1px solid red;
 }
 
 .water-wireframe-images > div > img {
@@ -144,11 +135,6 @@
 .water-HF-onboarding-images {
   display: flex;
   margin: 20px 0;
-  border: 1px solid red;
-}
-
-.water-HF-onboarding-images > div {
-  border: 1px solid white;
 }
 
 .water-wireframe-high-fidelity-login-and-signUp {
@@ -159,26 +145,16 @@
 .water-HF-Login-SignUp {
   display: flex;
   margin: 20px 0;
-  border: 1px solid red;
-}
-
-.water-HF-Login-SignUp > div {
-  border: 1px solid white;
 }
 
 .water-wireframe-high-fidelity-forgotPwd {
   margin: 20px 0;
   font-family: "Recoleta";
   font-size: 24px;
-  border: 1px solid red;
 }
 
 .water-HF-forgotPwd {
   display: flex;
-}
-
-.water-HF-forgotPwd > div {
-  border: 1px solid wheat;
 }
 
 .water-wireframe-high-fidelity-prototype {
