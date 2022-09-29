@@ -1,13 +1,8 @@
 .waterLandingImageAndLogo {
   position: relative;
-  /* width: 1585px;
-  height: 515px;
-  top: 116px; */
 }
 
 .waterFirstImage {
-  /* width: 1585px;
-  height: 515px; */
   width: 100%;
   height: auto;
 }
@@ -21,7 +16,6 @@
   height: 100%;
   left: 0;
   top: 0;
-  /* z-index: 1; */
 }
 
 .water-roleContainer {
@@ -45,9 +39,7 @@
 
 .water-background-section {
   position: relative;
-  /* width: 1585px; */
   height: 400px;
-  /* top: 310px; */
   background: #005e8a;
   display: flex;
   justify-content: center;
@@ -63,11 +55,7 @@
 }
 
 .water-bg-text {
-  /* position: relative; */
-  /* top: 130px;
-  left: 70px; */
   width: 40%;
-  /* height: 200px; */
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
@@ -79,11 +67,6 @@
 .water-bg-para {
   width: 50%;
   border: 1px solid white;
-
-  /* height: 200px; */
-  /* position: relative;
-  top: 130px;
-  left: 10px; */
 }
 
 .water-bg-line-and-aboutWaterTalk {
@@ -118,10 +101,6 @@
 }
 
 .water-wireframe {
-  /* position: relative; */
-  /* width: 1585px; */
-  /* height: 3850px; */
-  /* top: 310px; */
   display: flex;
   justify-content: center;
   background: #1c1b1b;
@@ -138,26 +117,15 @@
   border: 1px solid red;
 }
 
-.water-wireframe-header {
-  /* position: relative;
-  top: 60px;
-  left: 160px; */
-}
-
 .water-wireframe-images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   margin-top: 20px;
-  /* position: relative;
-  top: 130px;
-  left: 160px; */
-  /* width: 80%; */
 }
 
 .water-wireframe-images > div {
   border: 1px solid red;
-  /* width: 250px; */
 }
 
 .water-wireframe-images > div > img {
@@ -166,15 +134,9 @@
 
 .water-wireframe-high-fidelity {
   margin: 50px 0;
-  /* position: relative;
-  top: 180px;
-  left: 160px; */
 }
 
 .water-wireframe-high-fidelity-onboarding {
-  /* position: relative;
-  top: 220px;
-  left: 160px; */
   font-family: "Recoleta";
   font-size: 24px;
 }
@@ -183,24 +145,13 @@
   display: flex;
   margin: 20px 0;
   border: 1px solid red;
-  /* position: relative;
-  top: 270px;
-  left: 160px; */
 }
 
 .water-HF-onboarding-images > div {
   border: 1px solid white;
 }
 
-/* .water-HF-onboarding-images > div > img {
-  width: 100%;
-} */
-
 .water-wireframe-high-fidelity-login-and-signUp {
-  /* position: relative;
-  top: 300px;
-  left: 160px; */
-  /* margin: 20px 0; */
   font-family: "Recoleta";
   font-size: 24px;
 }
@@ -209,9 +160,6 @@
   display: flex;
   margin: 20px 0;
   border: 1px solid red;
-  /* position: relative;
-  top: 350px;
-  left: 160px; */
 }
 
 .water-HF-Login-SignUp > div {
@@ -219,9 +167,6 @@
 }
 
 .water-wireframe-high-fidelity-forgotPwd {
-  /* position: relative;
-  top: 370px;
-  left: 160px; */
   margin: 20px 0;
   font-family: "Recoleta";
   font-size: 24px;
@@ -230,9 +175,6 @@
 
 .water-HF-forgotPwd {
   display: flex;
-  /* position: relative;
-  top: 425px;
-  left: 160px; */
 }
 
 .water-HF-forgotPwd > div {
@@ -240,10 +182,6 @@
 }
 
 .water-wireframe-high-fidelity-prototype {
-  /* position: relative;
-  top: 510px;
-  left: 150px; */
-  /* width: 1000px; */
   margin: 80px 0 0 0;
   font-family: "Argue DEMO";
   font-style: normal;
