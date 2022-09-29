@@ -220,7 +220,7 @@ function InvestNowPage() {
           </div>
         </div>
       </div>
-      {/* <div className="invest-myroleandsolution">
+      <div className="invest-myroleandsolution">
         <div className="invest-myrole">
           <p>My Role & Approach to Solution</p>
         </div>
@@ -239,7 +239,7 @@ function InvestNowPage() {
             guidelines already provided.
           </p>
         </div>
-      </div> */}
+      </div>
       {/* <div className="invest-redesign">
         <p className="invest-redesign-header">Redesign</p>
         <p className="invest-redesign-splash">Splash Screens</p>
