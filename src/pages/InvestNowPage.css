@@ -260,7 +260,6 @@
 .invest-redesign > div {
   width: 80%;
   margin: 100px 0;
-  border: 1px solid red;
 }
 
 .invest-redesign-header {
@@ -287,38 +286,26 @@
   font-weight: 400;
   font-size: 18px;
   color: #000000;
-  border: 1px solid red;
 }
 
 .invest-redesign-oldDesign p {
   margin-bottom: 20px;
-  border: 1px solid yellow;
 }
 
 .invest-redesign-newDesign p {
   margin-bottom: 20px;
-  border: 1px solid yellow;
 }
 
 .invest_redesign-new {
   display: flex;
 }
 
-.invest-redesign-oldDesign > div {
-  border: 1px solid blue;
-}
-
 .invest-redesign-oldDesign > div > img {
   width: 100%;
 }
 
-.invest-redesign-newDesign > div {
-  border: 1px solid red;
-}
-
 .invest-onboarding-design {
   margin-top: 60px;
-  border: 1px solid green;
 }
 
 .invest-onboarding-text {
@@ -333,7 +320,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  border: 1px solid yellow;
 }
 
 .invest-onboarding-completeOldDesigns {
@@ -354,7 +340,6 @@
   font-size: 18px;
   line-height: 30px;
   color: #424242;
-  border: 1px solid green;
 }
 
 .invest-onboarding-new > p {
@@ -365,10 +350,6 @@
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-}
-
-.invest-onboarding-completeNewDesigns > div {
-  border: 1px solid blue;
 }
 
 .invest-onboarding-completeNewDesigns > div > img {
@@ -384,7 +365,6 @@
 .invest-prototype > div {
   margin: 100px 0;
   width: 80%;
-  border: 1px solid white;
 }
 
 .invest-prototype-header {
@@ -418,7 +398,6 @@
 .invest-key-takeaway-section > div {
   width: 80%;
   margin: 100px 0;
-  border: 1px solid white;
 }
 
 .invest-key-takeaway-section > div > h2 {
