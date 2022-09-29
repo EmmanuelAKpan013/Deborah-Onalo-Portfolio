@@ -148,6 +148,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+  margin-top: 20px;
   /* position: relative;
   top: 130px;
   left: 160px; */
@@ -159,76 +160,104 @@
   /* width: 250px; */
 }
 
+.water-wireframe-images > div > img {
+  width: 100%;
+}
+
 .water-wireframe-high-fidelity {
-  position: relative;
+  margin: 50px 0;
+  /* position: relative;
   top: 180px;
-  left: 160px;
+  left: 160px; */
 }
 
 .water-wireframe-high-fidelity-onboarding {
-  position: relative;
+  /* position: relative;
   top: 220px;
-  left: 160px;
+  left: 160px; */
   font-family: "Recoleta";
   font-size: 24px;
 }
 
 .water-HF-onboarding-images {
   display: flex;
-  position: relative;
+  margin: 20px 0;
+  border: 1px solid red;
+  /* position: relative;
   top: 270px;
-  left: 160px;
+  left: 160px; */
 }
 
+.water-HF-onboarding-images > div {
+  border: 1px solid white;
+}
+
+/* .water-HF-onboarding-images > div > img {
+  width: 100%;
+} */
+
 .water-wireframe-high-fidelity-login-and-signUp {
-  position: relative;
+  /* position: relative;
   top: 300px;
-  left: 160px;
+  left: 160px; */
+  /* margin: 20px 0; */
   font-family: "Recoleta";
   font-size: 24px;
 }
 
 .water-HF-Login-SignUp {
   display: flex;
-  position: relative;
+  margin: 20px 0;
+  border: 1px solid red;
+  /* position: relative;
   top: 350px;
-  left: 160px;
+  left: 160px; */
+}
+
+.water-HF-Login-SignUp > div {
+  border: 1px solid white;
 }
 
 .water-wireframe-high-fidelity-forgotPwd {
-  position: relative;
+  /* position: relative;
   top: 370px;
-  left: 160px;
+  left: 160px; */
+  margin: 20px 0;
   font-family: "Recoleta";
   font-size: 24px;
+  border: 1px solid red;
 }
 
 .water-HF-forgotPwd {
   display: flex;
-  position: relative;
+  /* position: relative;
   top: 425px;
-  left: 160px;
+  left: 160px; */
+}
+
+.water-HF-forgotPwd > div {
+  border: 1px solid wheat;
 }
 
 .water-wireframe-high-fidelity-prototype {
-  position: relative;
+  /* position: relative;
   top: 510px;
-  left: 150px;
-  width: 1000px;
+  left: 150px; */
+  /* width: 1000px; */
+  margin: 80px 0 0 0;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
-  font-size: 92px;
 }
 
 .water-prototype-header {
   font-size: 84px;
+  margin: 10px 0;
 }
 
 .water-prototype-shortnote {
   font-family: "Circular Std";
   font-size: 18px;
-  line-height: 54px;
 }
 
 .water-prototype-link {
@@ -236,6 +265,5 @@
 }
 
 .water-pagination-container {
-  position: relative;
-  top: 550px;
+  background: #1c1b1b;
 }
