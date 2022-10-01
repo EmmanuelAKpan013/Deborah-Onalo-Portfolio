@@ -1,12 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import LoaderPage from "./pages/LoaderPage";
-// import HomePage from "./pages/HomePage";
-// import ProjectPage from "./pages/ProjectPage";
-// import NomadPage from "./pages/NomadPage";
-// import BlomBlomPage from "./pages/BlomBlomPage";
-// import SaudipixPage from "./pages/SaudipixPage";
-// import InvestNowPage from "./pages/InvestNowPage";
-// import WaterTalkPage from "./pages/WaterTalkPage";
+import { BrowserRouter as Router } from "react-router-dom";
 import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
