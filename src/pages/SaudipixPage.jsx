@@ -17,6 +17,7 @@ import missionPageImg from "../images/saudipix/Missions Page.png";
 import profileEditImg from "../images/saudipix/Profile Edit.png";
 import userLoginImg from "../images/saudipix/User Login.png";
 import userSignupImg from "../images/saudipix/User Sign Up.png";
+import { motion } from "framer-motion";
 // import { useState, useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
 
@@ -31,7 +32,11 @@ function SaudipixPage() {
   // }, []);
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
       <div className="saudipixLandingImageAndLogo">
         <div className="saudipixLandingImg">
@@ -247,7 +252,7 @@ function SaudipixPage() {
         <Pagination />
       </div>{" "}
       */}
-    </>
+    </motion.div>
   );
 }
 

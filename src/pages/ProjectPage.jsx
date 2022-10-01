@@ -1,12 +1,17 @@
 import { useNavigate } from "react-router-dom";
 import "./ProjectPage.css";
 import Navbar from "../components/Navbar";
+import { motion } from "framer-motion";
 
 function ProjectPage() {
   const navigate = useNavigate();
 
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
       <div className="project-header">selected projects</div>
       <div className="project-lists">
@@ -51,7 +56,7 @@ function ProjectPage() {
           <p className="listName">WaterTalk</p>
         </div>
       </div>
-    </>
+    </motion.div>
   );
 }
 

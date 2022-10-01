@@ -17,10 +17,15 @@ import waterLogIn from "../images/watertalk/iPhone 12 Graphite Pro Top View Mock
 import waterForgotPwd from "../images/watertalk/Forgot Password.png";
 import waterForgotPwdTwo from "../images/watertalk/Forgot Password -1.png";
 import Pagination from "../components/Pagination";
+import { motion } from "framer-motion";
 
 function WaterTalkPage() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
       <div className="waterLandingImageAndLogo">
         <div className="waterLandingImg">
@@ -160,7 +165,7 @@ function WaterTalkPage() {
       <div className="water-pagination-container">
         <Pagination />
       </div>
-    </>
+    </motion.div>
   );
 }
 

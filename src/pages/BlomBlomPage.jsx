@@ -23,10 +23,15 @@ import artboardThirteen from "../images/blomblom/Artboard 13.png";
 import vectorToLeft from "../images/blomblom/VectorToLeft.png";
 import vectorToBottom from "../images/blomblom/VectorToBottom.png";
 import vectorToBottomRight from "../images/blomblom/VectorToBottomRight.png";
+import { motion } from "framer-motion";
 
 function BlomBlomPage() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
       <div className="blomLandingImageAndLogo">
         <div className="blomblomLandingImg">
@@ -413,7 +418,7 @@ function BlomBlomPage() {
       <div className="blom-pagination-container">
         <Pagination />
       </div>
-    </>
+    </motion.div>
   );
 }
 

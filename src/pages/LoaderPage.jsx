@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LoaderPage.css";
+import { motion } from "framer-motion";
 
 function LoaderPage() {
   const [loader, setLoader] = useState(0);
@@ -11,7 +12,6 @@ function LoaderPage() {
       loader < 21
         ? setInterval(() => {
             setLoader(loader + 1);
-            console.log(loader);
           }, 1000)
         : navigate("/homepage");
     };
@@ -21,7 +21,14 @@ function LoaderPage() {
 
   return (
     <>
-      <div className="loader">{loader}</div>
+      <motion.div
+        className="loader"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
+        {loader}
+      </motion.div>
     </>
   );
 }

@@ -24,9 +24,14 @@ import landingPageImageFive from "../images/nomad/047.png";
 import landingPageImageSix from "../images/nomad/48.png";
 import landingPageImageSeven from "../images/nomad/PO 4.png";
 import Pagination from "../components/Pagination";
+import { motion } from "framer-motion";
 function NomadPage() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
 
       <div className="nomad-landing-container">
@@ -401,7 +406,7 @@ function NomadPage() {
           <Pagination />
         </div>
       </div>
-    </>
+    </motion.div>
   );
 }
 

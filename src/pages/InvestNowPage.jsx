@@ -34,10 +34,15 @@ import investOnboarding16 from "../images/investnow/investOnboarding16.png";
 import investOnboarding17 from "../images/investnow/investOnboarding17.png";
 import investOnboarding18 from "../images/investnow/investOnboarding18.png";
 import investOnboarding19 from "../images/investnow/investOnboarding19.png";
+import { motion } from "framer-motion";
 
 function InvestNowPage() {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Navbar />
       <div className="InvestNowLandingImageAndLogo">
         <div className="InvestNowLandingImg">
@@ -382,7 +387,7 @@ function InvestNowPage() {
       <div className="invest-pagination-container">
         <Pagination />
       </div>
-    </>
+    </motion.div>
   );
 }
 
