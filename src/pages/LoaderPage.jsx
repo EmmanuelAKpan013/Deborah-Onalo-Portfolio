@@ -4,16 +4,16 @@ import "./LoaderPage.css";
 import { motion } from "framer-motion";
 
 function LoaderPage() {
-  const [loader, setLoader] = useState(0);
+  const [loader, setLoader] = useState(1);
   const navigate = useNavigate();
 
   useEffect(() => {
     const loaderFn = () => {
-      loader < 19
+      loader <= 10
         ? setInterval(() => {
             setLoader(loader + 1);
-          }, 3000)
-        : navigate("/");
+          }, 1000)
+        : navigate("/homepage");
     };
     loaderFn();
     return () => clearInterval(loaderFn);
