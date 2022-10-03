@@ -21,11 +21,7 @@ import { motion } from "framer-motion";
 
 function WaterTalkPage() {
   return (
-    <motion.div
-      initial={{ width: 0 }}
-      animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: "0.1s" } }}
-    >
+    <motion.div>
       <Navbar />
       <div className="waterLandingImageAndLogo">
         <div className="waterLandingImg">

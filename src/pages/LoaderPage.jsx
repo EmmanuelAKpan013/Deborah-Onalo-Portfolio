@@ -9,11 +9,11 @@ function LoaderPage() {
 
   useEffect(() => {
     const loaderFn = () => {
-      loader < 21
+      loader < 19
         ? setInterval(() => {
             setLoader(loader + 1);
-          }, 1000)
-        : navigate("/homepage");
+          }, 3000)
+        : navigate("/");
     };
     loaderFn();
     return () => clearInterval(loaderFn);
@@ -23,11 +23,11 @@ function LoaderPage() {
     <>
       <motion.div
         className="loader"
-        initial={{ width: 0 }}
-        animate={{ width: "100%" }}
-        exit={{ x: window.innerWidth, transition: { duration: "0.1s" } }}
+        // initial={{ opacity: 0 }}
+        // animate={{ opacity: 1 }}
+        // exit={{ opacity: 0, transition: { duration: "1s" } }}
       >
-        {loader}
+        <div className="loader_box">{loader}</div>
       </motion.div>
     </>
   );
