@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 function Navbar() {
   return (
     <div className="navbar">
-      <Link to="/">
+      <Link to="/homepage">
         <div className="logo">
           <img src={logo} alt="" />
         </div>

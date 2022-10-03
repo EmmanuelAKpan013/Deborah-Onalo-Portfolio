@@ -23,9 +23,9 @@ function LoaderPage() {
     <>
       <motion.div
         className="loader"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        initial={{ width: 0 }}
+        animate={{ width: "100%" }}
+        exit={{ x: window.innerWidth, transition: { duration: "0.1s" } }}
       >
         {loader}
       </motion.div>
