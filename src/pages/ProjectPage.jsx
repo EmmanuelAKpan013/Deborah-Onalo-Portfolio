@@ -10,7 +10,7 @@ function ProjectPage() {
     <motion.div
       initial={{ y: "-100%" }}
       // animate={{ x: "calc(100vw - 90%)" }}
-      animate={{ y: "0%" }}
+      animate={{ y: "0%", transitionDuration: "1s" }}
       // exit={
       //   {
       //     top: 0,
