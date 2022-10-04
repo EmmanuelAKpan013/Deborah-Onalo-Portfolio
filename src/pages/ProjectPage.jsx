@@ -8,14 +8,14 @@ function ProjectPage() {
 
   return (
     <motion.div
-    // initial={{ height: "-100px" }}
-    // animate={{ height: "100%" }}
-    // exit={{
-    //   x: window.innerWidth,
-    //   y: window.innerHeight,
-    //   opacity: 0,
-    //   transition: { duration: "1s" },
-    // }}
+      initial={{ y: "-100%" }}
+      // animate={{ x: "calc(100vw - 90%)" }}
+      animate={{ y: "0%" }}
+      // exit={
+      //   {
+      //     top: 0,
+      //   }
+      // }
     >
       <Navbar />
       <div className="project-header">selected projects</div>

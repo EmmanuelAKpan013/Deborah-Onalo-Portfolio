@@ -9,7 +9,7 @@ function LoaderPage() {
 
   useEffect(() => {
     const loaderFn = () => {
-      loader <= 10
+      loader <= 9
         ? setInterval(() => {
             setLoader(loader + 1);
           }, 1000)
@@ -23,9 +23,9 @@ function LoaderPage() {
     <>
       <motion.div
         className="loader"
-        // initial={{ opacity: 0 }}
-        // animate={{ opacity: 1 }}
-        // exit={{ opacity: 0, transition: { duration: "1s" } }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
       >
         <div className="loader_box">{loader}</div>
       </motion.div>
