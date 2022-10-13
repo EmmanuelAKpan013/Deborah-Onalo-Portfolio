@@ -25,7 +25,7 @@ function LoaderPage() {
         className="loader"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        exit={{ opacity: 0, transitionDuration: "1s" }}
       >
         <div className="loader_box">{loader}</div>
       </motion.div>
