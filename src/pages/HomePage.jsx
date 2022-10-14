@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 
 function HomePage() {
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const navigate = useNavigate();
-  console.log(navigate);
+  // console.log(navigate);
 
   return (
     <motion.div

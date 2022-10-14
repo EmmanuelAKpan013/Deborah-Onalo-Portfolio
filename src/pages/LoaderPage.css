@@ -10,7 +10,7 @@
   font-size: 64px;
   color: #ffffff;
   transition: all 0.5s ease-in;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .loader_box {
@@ -23,7 +23,7 @@
   align-items: center;
   animation-name: loaderNumber;
   animation-direction: reverse;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: 20;
   animation-timing-function: linear;
 }
@@ -36,6 +36,6 @@
 
   100% {
     /* background: red; */
-    top: 50px;
+    top: 80px;
   }
 }

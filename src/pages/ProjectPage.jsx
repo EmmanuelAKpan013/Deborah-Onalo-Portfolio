@@ -6,9 +6,14 @@ import { motion } from "framer-motion";
 function ProjectPage() {
   const navigate = useNavigate();
   const location = useLocation();
+  // console.log(location.pathname)
 
   // if (location.pathname === "/project" && navigate("/homepage")) {
   //   console.log("Navigated to Homepage");
+  // }
+
+  // if (location.pathname === "/project" && navigate("/homepage")) {
+  //   console.log("Navigated to homepage");
   // }
 
   return (

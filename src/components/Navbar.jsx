@@ -1,8 +1,15 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../images/logo.png";
 
 function Navbar() {
+  const navigate = useNavigate();
+  // const handleClick = () => {
+  //   if (window.location.pathname === "/project" && navigate("/homepage")) {
+  //     window.alert("You navigated to the home page");
+  //   }
+  // };
+
   return (
     <div className="navbar">
       <Link to="/homepage">

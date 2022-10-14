@@ -12,7 +12,7 @@ function LoaderPage() {
       loader <= 9
         ? setInterval(() => {
             setLoader(loader + 1);
-          }, 1000)
+          }, 500)
         : navigate("/homepage");
     };
     loaderFn();
