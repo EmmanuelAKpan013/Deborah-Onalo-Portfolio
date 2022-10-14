@@ -18,8 +18,9 @@ function ProjectPage() {
 
   return (
     <motion.div
-      initial={{ y: "-100%" }}
-      animate={{ y: "0%", transitionDuration: "1s" }}
+      initial={{ y: "-100%", transitionDuration: "2s" }}
+      animate={{ y: "0%" }}
+      exit={{ opacity: 0 }}
     >
       <Navbar />
       <div className="project-header">selected projects</div>

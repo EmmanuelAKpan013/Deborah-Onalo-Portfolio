@@ -33,7 +33,8 @@ function SaudipixPage() {
 
   return (
     <motion.div
-     
+      initial={{ opacity: 0, transitionDuration: "3s" }}
+      animate={{ opacity: 1 }}
     >
       <Navbar />
       <div className="saudipixLandingImageAndLogo">
@@ -45,7 +46,18 @@ function SaudipixPage() {
           />
         </div>
         <div className="saudipix-logo">
-          <img src={saudipixLogo} alt="" />
+          <motion.div
+            initial={{
+              x: "-200%",
+              y: "500%",
+              // z: "50%",
+              // translate: "50%, -50%",
+              transitionDuration: "2s",
+            }}
+            animate={{ x: "0%", y: "0%" }}
+          >
+            <img src={saudipixLogo} alt="" />
+          </motion.div>
         </div>
       </div>
       <div className="saudipix-roleContainer">

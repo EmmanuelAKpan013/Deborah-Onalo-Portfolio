@@ -15,8 +15,8 @@ function HomePage() {
     <motion.div
       // Transition from Loader page
       initial={{ opacity: 0, transitionDuration: "3s" }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      animate={{ opacity: 1, transitionDuration: "2s" }}
+      exit={{ opacity: 0, transitionDuration: "3s" }}
 
       // Transition from Project List Page
       // initial={{ y: "-100%" }}

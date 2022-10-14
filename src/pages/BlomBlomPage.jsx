@@ -27,7 +27,10 @@ import { motion } from "framer-motion";
 
 function BlomBlomPage() {
   return (
-    <motion.div>
+    <motion.div
+      initial={{ opacity: 0, transitionDuration: "3s" }}
+      animate={{ opacity: 1 }}
+    >
       <Navbar />
       <div className="blomLandingImageAndLogo">
         <div className="blomblomLandingImg">
