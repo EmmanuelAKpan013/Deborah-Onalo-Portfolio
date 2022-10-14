@@ -12,7 +12,7 @@ function LoaderPage() {
       loader <= 9
         ? setInterval(() => {
             setLoader(loader + 1);
-          }, 500)
+          }, 1000)
         : navigate("/homepage");
     };
     loaderFn();
@@ -27,7 +27,7 @@ function LoaderPage() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, transitionDuration: "1s" }}
       >
-        <div className="loader_box">{loader}</div>
+        <div className="loader_box">{String(loader).padStart(2, 0)}</div>
       </motion.div>
     </>
   );
