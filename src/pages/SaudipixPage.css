@@ -283,8 +283,8 @@
 }
 
 .saudipix-pagination-container {
-  position: relative;
-  top: 1780px;
+  /* position: relative; */
+  /* top: 1780px; */
   height: 250px;
   background: #000;
 }
