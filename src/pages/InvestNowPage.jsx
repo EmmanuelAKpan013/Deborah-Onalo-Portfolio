@@ -41,6 +41,7 @@ function InvestNowPage() {
     <motion.div
       initial={{ opacity: 0, transitionDuration: "3s" }}
       animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transitionDuration: "0.5s" }}
     >
       <Navbar />
       <div className="InvestNowLandingImageAndLogo">

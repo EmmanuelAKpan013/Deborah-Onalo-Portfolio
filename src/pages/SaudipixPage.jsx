@@ -35,6 +35,7 @@ function SaudipixPage() {
     <motion.div
       initial={{ opacity: 0, transitionDuration: "3s" }}
       animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transitionDuration: "0.5s" }}
     >
       <Navbar />
       <div className="saudipixLandingImageAndLogo">
@@ -55,6 +56,7 @@ function SaudipixPage() {
               transitionDuration: "2s",
             }}
             animate={{ x: "0%", y: "0%" }}
+            exit={{ opacity: 0, transitionDuration: "3s" }}
           >
             <img src={saudipixLogo} alt="" />
           </motion.div>

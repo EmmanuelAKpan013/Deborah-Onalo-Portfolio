@@ -1,26 +1,16 @@
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./ProjectPage.css";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 
 function ProjectPage() {
   const navigate = useNavigate();
-  const location = useLocation();
-  // console.log(location.pathname)
-
-  // if (location.pathname === "/project" && navigate("/homepage")) {
-  //   console.log("Navigated to Homepage");
-  // }
-
-  // if (location.pathname === "/project" && navigate("/homepage")) {
-  //   console.log("Navigated to homepage");
-  // }
 
   return (
     <motion.div
       initial={{ y: "-100%", transitionDuration: "2s" }}
       animate={{ y: "0%" }}
-      exit={{ opacity: 0 }}
+      exit={{ opacity: 0, transitionDuration: "0.5s" }}
     >
       <Navbar />
       <div className="project-header">selected projects</div>
