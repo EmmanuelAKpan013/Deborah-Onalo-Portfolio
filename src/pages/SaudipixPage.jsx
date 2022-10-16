@@ -18,19 +18,8 @@ import profileEditImg from "../images/saudipix/Profile Edit.png";
 import userLoginImg from "../images/saudipix/User Login.png";
 import userSignupImg from "../images/saudipix/User Sign Up.png";
 import { motion } from "framer-motion";
-// import { useState, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
 
 function SaudipixPage() {
-  // const [lightTextColor, setLightTextColor] = useState(false);
-  // const navigate = useNavigate();
-  // navigate("/saudipix");
-  // const paginationColor = "black";
-
-  // useEffect(() => {
-  //   setLightTextColor(true);
-  // }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0, transitionDuration: "3s" }}
