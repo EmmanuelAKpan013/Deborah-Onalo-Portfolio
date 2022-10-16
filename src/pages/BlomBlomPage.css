@@ -17,14 +17,13 @@
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
 }
 
 .blom-roleContainer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: -2px 0px 5px 0px;
+  margin: -1.5px 0px 5px 0px;
   height: auto;
   color: white;
   background: #1c1b1b;

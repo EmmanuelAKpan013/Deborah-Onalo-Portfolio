@@ -1,6 +1,5 @@
 .nomad-landing-container {
   position: relative;
-  /* background: rgba(0, 0, 0, 0.7); */
 }
 
 .nomad-logo {
@@ -10,9 +9,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* height: 515px; */
   background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
 }
 
 .nomad-imgContainer {
