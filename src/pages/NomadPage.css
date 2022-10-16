@@ -18,20 +18,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  place-items: center; */
-  background: rgb(221, 111, 111);
 }
 
 .nomadLandingImg {
   border: 1px solid black;
+  width: 100%;
 }
 
-/* .nomadLandingImg > img {
+.nomadLandingImg > img {
   width: 100%;
   border: 1px solid red;
-} */
+}
 
 /* .img-1 img {
   width: 396px;
