@@ -260,7 +260,7 @@ function SaudipixPage() {
       </div>
       <div className="saudipix-pagination-container">
         <Pagination />
-      </div>{" "}
+      </div>
     </motion.div>
   );
 }

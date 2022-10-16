@@ -13,7 +13,17 @@
   width: 80%;
 }
 
-.pag > div {
+.dark > div {
+  display: flex;
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 0;
+  color: #000;
+}
+
+.light > div {
   display: flex;
   font-family: "Circular Std";
   font-style: normal;

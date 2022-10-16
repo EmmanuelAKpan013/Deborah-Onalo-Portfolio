@@ -25,7 +25,7 @@ function Pagination() {
     <>
       {paginationColor ? (
         <div className="pagination-container">
-          <div className="pag">
+          <div className="pag dark">
             <div>
               <img src={DarkLeftArrow} alt="" />
               <p>Previous Project </p>
@@ -39,7 +39,7 @@ function Pagination() {
         </div>
       ) : (
         <div className="pagination-container">
-          <div className="pag">
+          <div className="pag light">
             <div>
               <img src={leftArrowIcon} alt="" />
               <p>Previous Project </p>
