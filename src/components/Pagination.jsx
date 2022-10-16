@@ -4,11 +4,40 @@ import leftArrowIcon from "../assets/icons/leftArrowIcon.svg";
 import DarkLeftArrow from "../assets/icons/DarkLeftArrow.png";
 import DarkRightArrow from "../assets/icons/DarkRightArrow.png";
 import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 function Pagination() {
   const [paginationColor, setPaginationColor] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const changePageNext = () => {
+    if (location.pathname === "/project/nomadbank") {
+      navigate("/project/blomblom");
+    } else if (location.pathname === "/project/blomblom") {
+      navigate("/project/saudipix");
+    } else if (location.pathname === "/project/saudipix") {
+      navigate("/project/investnow");
+    } else if (location.pathname === "/project/investnow") {
+      navigate("/project/watertalk");
+    } else if (location.pathname === "/project/watertalk") {
+      navigate("/project/nomadbank");
+    }
+  };
+
+  const changePagePrevious = () => {
+    if (location.pathname === "/project/watertalk") {
+      navigate("/project/investnow");
+    } else if (location.pathname === "/project/investnow") {
+      navigate("/project/saudipix");
+    } else if (location.pathname === "/project/saudipix") {
+      navigate("/project/blomblom");
+    } else if (location.pathname === "/project/blomblom") {
+      navigate("/project/nomadbank");
+    } else if (location.pathname === "/project/nomadbank") {
+      navigate("/project/watertalk");
+    }
+  };
 
   useEffect(() => {
     const changePaginationColor = () => {
@@ -18,6 +47,7 @@ function Pagination() {
         setPaginationColor(false);
       }
     };
+
     changePaginationColor();
   });
 
@@ -26,12 +56,12 @@ function Pagination() {
       {paginationColor ? (
         <div className="pagination-container">
           <div className="pag dark">
-            <div>
+            <div onClick={changePagePrevious}>
               <img src={DarkLeftArrow} alt="" />
               <p>Previous Project </p>
             </div>
 
-            <div>
+            <div onClick={changePageNext}>
               <p>Next Project</p>
               <img src={DarkRightArrow} alt="" />
             </div>
@@ -40,12 +70,12 @@ function Pagination() {
       ) : (
         <div className="pagination-container">
           <div className="pag light">
-            <div>
-              <img src={leftArrowIcon} alt="" />
-              <p>Previous Project </p>
+            <div onClick={changePagePrevious}>
+              <img src={leftArrowIcon} alt="" onClick={changePagePrevious} />
+              <p onClick={changePagePrevious}>Previous Project </p>
             </div>
 
-            <div>
+            <div onClick={changePageNext}>
               <p>Next Project</p>
               <img src={rightArrowIcon} alt="" />
             </div>
