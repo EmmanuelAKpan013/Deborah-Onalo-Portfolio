@@ -40,12 +40,10 @@ function SaudipixPage() {
             initial={{
               x: "-200%",
               y: "500%",
-              // z: "50%",
-              // translate: "50%, -50%",
-              transitionDuration: "2s",
+              transitionDuration: "1s",
             }}
             animate={{ x: "0%", y: "0%" }}
-            exit={{ opacity: 0, transitionDuration: "3s" }}
+            exit={{ opacity: 0, transitionDuration: "0.5s" }}
           >
             <img src={saudipixLogo} alt="" />
           </motion.div>

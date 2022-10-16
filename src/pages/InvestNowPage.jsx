@@ -39,7 +39,7 @@ import { motion } from "framer-motion";
 function InvestNowPage() {
   return (
     <motion.div
-      initial={{ opacity: 0, transitionDuration: "3s" }}
+      initial={{ opacity: 0, transitionDuration: "2s" }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transitionDuration: "0.5s" }}
     >
