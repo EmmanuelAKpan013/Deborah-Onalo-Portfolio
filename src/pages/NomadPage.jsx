@@ -35,9 +35,9 @@ function NomadPage() {
       <Navbar />
 
       <div className="nomad-landing-container">
-        {/* <div className="nomad-logo">
+        <div className="nomad-logo">
           <img src={nomadLogo} alt="" />
-        </div> */}
+        </div>
 
         <div className="nomad-imgContainer">
           <div className="nomadLandingImg img-1">
