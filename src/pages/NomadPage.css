@@ -457,6 +457,11 @@
   margin-top: 50px;
 }
 
+.nomad-website-section-table img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .wireframe-section {
   display: flex;
   justify-content: center;
