@@ -10,7 +10,6 @@
   position: relative;
   height: 500px;
   left: -20px;
-  border-radius: 150px;
 }
 
 .designer-image img {
@@ -21,6 +20,12 @@
 .designer-text {
   position: absolute;
   top: 35%;
+  width: 60%;
+  border: 1px solid red;
+}
+
+.designer-text img {
+  width: 100%;
 }
 
 .designer-name {
