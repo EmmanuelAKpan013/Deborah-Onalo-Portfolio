@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 function HomePage() {
   return (
     <motion.div
-      // Transition from Loader page
       initial={{ opacity: 0, transitionDuration: "3s" }}
       animate={{ opacity: 1, transitionDuration: "2s" }}
       exit={{ opacity: 0, transitionDuration: "0.5s" }}

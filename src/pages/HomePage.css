@@ -3,34 +3,46 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 80px;
-  height: 720px;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+  /* height: 720px; */
 }
 
 .designer-image {
   position: relative;
-  width: 370px;
-  height: 636px;
+  /* width: 370px; */
+  height: 500px;
   left: -20px;
-  background: url("../images/designerImage.png");
+  /* background: url("../images/designerImage.png"); */
   border-radius: 150px;
+  /* border: 1px solid black; */
+}
+
+.designer-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .designer-text {
-  position: relative;
+  /* position: relative;
   height: 170px;
   left: 0px;
   top: -380px;
+  border: 1px solid green; */
+  position: absolute;
+  top: 35%;
+  /* border: 1px solid green; */
 }
 
 .designer-name {
   position: relative;
   left: -15px;
-  top: -100px;
+  top: 15px;
   color: #6c4013;
   text-align: center;
   font-family: "Argue DEMO";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+  /* border: 1px solid red; */
 }
