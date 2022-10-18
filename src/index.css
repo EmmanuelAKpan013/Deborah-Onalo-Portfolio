@@ -1,14 +1,19 @@
-/* @import url("http://fonts.cdnfonts.com/css/argue-demo");
-@import url("http://fonts.cdnfonts.com/css/circular-std");
-@import url("http://fonts.cdnfonts.com/css/hk-groteks");
-@import url("http://fonts.cdnfonts.com/css/recoleta");
-@import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro");
-@import url("http://fonts.cdnfonts.com/css/dm-sans"); */
+/* @import url("http://fonts.cdnfonts.com/css/argue-demo"); */
+/* @import url("http://fonts.cdnfonts.com/css/circular-std"); */
+/* @import url("http://fonts.cdnfonts.com/css/hk-groteks"); */
+/* @import url("http://fonts.cdnfonts.com/css/recoleta"); */
+/* @import url("http://fonts.cdnfonts.com/css/avenir-next-lt-pro"); */
+/* @import url("http://fonts.cdnfonts.com/css/dm-sans"); */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Argue DEMO";
+  src: local("ArgueDemo"), url(../src/fonts/ArgueDemo.ttf) format("truetype");
 }
 
 body {
