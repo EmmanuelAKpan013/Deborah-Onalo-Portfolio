@@ -56,28 +56,28 @@ function Pagination() {
       {paginationColor ? (
         <div className="pagination-container">
           <div className="pag dark">
-            <div onClick={changePagePrevious}>
-              <img src={DarkLeftArrow} alt="" />
-              <p>Previous Project </p>
+            <div>
+              <img src={DarkLeftArrow} alt="" onClick={changePagePrevious} />
+              <p onClick={changePagePrevious}>Previous Project </p>
             </div>
 
-            <div onClick={changePageNext}>
-              <p>Next Project</p>
-              <img src={DarkRightArrow} alt="" />
+            <div>
+              <p onClick={changePageNext}>Next Project</p>
+              <img src={DarkRightArrow} alt="" onClick={changePageNext} />
             </div>
           </div>
         </div>
       ) : (
         <div className="pagination-container">
           <div className="pag light">
-            <div onClick={changePagePrevious}>
+            <div>
               <img src={leftArrowIcon} alt="" onClick={changePagePrevious} />
               <p onClick={changePagePrevious}>Previous Project </p>
             </div>
 
-            <div onClick={changePageNext}>
-              <p>Next Project</p>
-              <img src={rightArrowIcon} alt="" />
+            <div>
+              <p onClick={changePageNext}>Next Project</p>
+              <img src={rightArrowIcon} alt="" onClick={changePageNext} />
             </div>
           </div>
         </div>

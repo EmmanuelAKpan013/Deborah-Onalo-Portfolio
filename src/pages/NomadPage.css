@@ -547,6 +547,9 @@
 .landingPage-image {
   color: #ffffff;
   margin: 5px 30px 5px 5px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
 }
 
 .landingPage-image > div {
