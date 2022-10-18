@@ -16,6 +16,22 @@
   src: local("ArgueDemo"), url(../src/fonts/ArgueDemo.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Circular Std";
+  src: local("CircularStd-Regular"),
+    url(../src/fonts/CircularStd-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Circular Std";
+  src: local("CircularStd-Regular"),
+    url(../src/fonts/CircularStd-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Circular Std";
+  src: local("CircularStd-Regular"),
+    url(../src/fonts/CircularStd-Bold.ttf) format("truetype");
+}
+
 body {
   background: #e8d9b3;
   align-items: center;
