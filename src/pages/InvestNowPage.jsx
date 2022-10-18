@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Pagination from "../components/Pagination";
 import "./InvestNowPage.css";
 import investNowLandingImage from "../images/investnow/Component 12.png";
-import investNowLogo from "../images/investnow/investNowLogo.png";
+import investNowLogo from "../images/investnow/investLogoandText.png";
 import investNowFirstIphoneDesign from "../images/investnow/Group 9376.png";
 import investNowSecondIphoneDesign from "../images/investnow/Group 9375.png";
 import investNowThirdIphoneDesign from "../images/investnow/Group 9381.png";
@@ -108,14 +108,14 @@ function InvestNowPage() {
           </div>
           <div>
             <img
-              src={investNowSecondIphoneDesign}
+              src={investNowFifthIphoneDesign}
               alt=""
               className="investNowLayoutImg"
             />
           </div>
           <div>
             <img
-              src={investNowSecondIphoneDesign}
+              src={investNowSixthIphoneDesign}
               alt=""
               className="investNowLayoutImg"
             />
