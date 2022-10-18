@@ -56,7 +56,7 @@ function BlomBlomPage() {
             store and seamsless <br /> end to end appointment scheduling.
           </p>
         </div>
-        <div className="blom-roleContent-year">
+        <div className="blom-roleContent blom-roleContent-year">
           <h3>YEAR</h3>
           <br />
           <p>2021 - Present</p>

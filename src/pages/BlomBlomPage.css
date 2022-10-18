@@ -32,9 +32,8 @@
 
 .blom-roleContent {
   width: auto;
-  height: auto;
+  height: 120px;
   margin: 30px;
-  padding: 10px;
   line-height: 24px;
 }
 
