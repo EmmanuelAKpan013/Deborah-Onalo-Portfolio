@@ -100,6 +100,7 @@ function InvestNowPage() {
             />
           </div>
           <div>
+            {/* This image need to be corrected by the product designer */}
             <img
               src={investNowFourthIphoneDesign}
               alt=""
