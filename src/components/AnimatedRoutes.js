@@ -8,6 +8,7 @@ import SaudipixPage from "../pages/SaudipixPage";
 import InvestNowPage from "../pages/InvestNowPage";
 import WaterTalkPage from "../pages/WaterTalkPage";
 import { AnimatePresence } from "framer-motion";
+import DropperPage from "../pages/DropperPage";
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function AnimatedRoutes() {
         <Route path="/project/saudipix" element={<SaudipixPage />} />
         <Route path="/project/investnow" element={<InvestNowPage />} />
         <Route path="/project/watertalk" element={<WaterTalkPage />} />
+        <Route path="/project/dropper" element={<DropperPage />} />
       </Routes>
     </AnimatePresence>
   );
