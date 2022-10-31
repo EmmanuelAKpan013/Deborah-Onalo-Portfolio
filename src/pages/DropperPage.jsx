@@ -1,6 +1,7 @@
 import "./DropperPage.css";
 import { motion } from "framer-motion";
 import Navbar from "../components/Navbar";
+import DropperLogo from "../images/dropper/Dropper Assets Main 2.png";
 
 function DropperPage() {
   return (
@@ -9,11 +10,13 @@ function DropperPage() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transitionDuration: "0.5s" }}
     >
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="dropper_nav">
         <div className="dropper_navList">
+          <div>
+            <img src={DropperLogo} alt="" />
+          </div>
           <ul>
-            <li>Dropper</li>
             <li>Services</li>
             <li>Tracking</li>
             <li>Location</li>
@@ -21,7 +24,7 @@ function DropperPage() {
         </div>
         <div className="dropper_navCreateAccount">
           <p>Login</p>
-          <button>Create a free account</button>
+          <button className="create_account">Create a free account</button>
         </div>
       </div>
     </motion.div>
