@@ -43,7 +43,8 @@
 
 .dropper_hero_section {
   background: #1a1a1a;
-  height: 400px;
+  /* height: 400px; */
+  padding: 0 60px;
 }
 
 .dropper_hero_big-text {
@@ -52,6 +53,7 @@
   font-weight: 700;
   font-size: 72px;
   line-height: 84px;
+  padding-top: 30px;
   color: #ffffff;
   border: 1px solid red;
 }

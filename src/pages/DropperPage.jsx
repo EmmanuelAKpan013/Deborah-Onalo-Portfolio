@@ -35,7 +35,8 @@ function DropperPage() {
           For African Businesses
         </p>
         <p>
-          We are powering a network of micro fulfilment centres, and making them
+          We are powering a network of micro fulfilment centres, and making them{" "}
+          <br />
           accessible as a simple internet infrastructure to power your business.
         </p>
       </div>
