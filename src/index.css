@@ -75,6 +75,13 @@
   src: local("WorkSans"), url(../src/fonts/WorkSans.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Eina04-SemiBold";
+  font-style: normal;
+  src: local("Eina 04 W03 SemiBold"),
+    url(../src/fonts/Eina\ 04\ W03\ SemiBold.ttf) format("truetype");
+}
+
 body {
   background: #e8d9b3;
   align-items: center;
