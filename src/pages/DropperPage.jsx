@@ -47,6 +47,16 @@ function DropperPage() {
           />
         </form>
         <button className="create-account">Create a free account</button>
+        <div className="dropper_expediture-package-dilivered">
+          <p>
+            24/7 <br />
+            Expenditure
+          </p>
+          <p>
+            5M+ <br />
+            Packages Delivered
+          </p>
+        </div>
       </div>
     </motion.div>
   );
