@@ -69,6 +69,12 @@
     url(../src/fonts/DMSans-Bold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  src: local("WorkSans"), url(../src/fonts/WorkSans.ttf) format("truetype");
+}
+
 body {
   background: #e8d9b3;
   align-items: center;
