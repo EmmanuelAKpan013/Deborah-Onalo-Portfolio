@@ -28,11 +28,15 @@ function DropperPage() {
         </div>
       </div>
       <div className="dropper_hero_section">
-        <p>
+        <p className="dropper_hero_big-text">
           Simplified Order <br />
           Fulfilment Infrastracture
           <br />
           For African Businesses
+        </p>
+        <p>
+          We are powering a network of micro fulfilment centres, and making them
+          accessible as a simple internet infrastructure to power your business.
         </p>
       </div>
     </motion.div>
