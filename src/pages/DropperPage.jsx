@@ -39,6 +39,13 @@ function DropperPage() {
           <br />
           accessible as a simple internet infrastructure to power your business.
         </p>
+        <form action="">
+          <input
+            type="text"
+            className="dropper_email"
+            placeholder="Enter email"
+          />
+        </form>
       </div>
     </motion.div>
   );
