@@ -27,6 +27,14 @@ function DropperPage() {
           <button className="create_account">Create a free account</button>
         </div>
       </div>
+      <div className="dropper_hero_section">
+        <p>
+          Simplified Order <br />
+          Fulfilment Infrastracture
+          <br />
+          For African Businesses
+        </p>
+      </div>
     </motion.div>
   );
 }
