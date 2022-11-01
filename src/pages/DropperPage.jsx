@@ -46,6 +46,7 @@ function DropperPage() {
             placeholder="Enter email"
           />
         </form>
+        <button className="create-account">Create a free account</button>
       </div>
     </motion.div>
   );

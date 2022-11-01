@@ -66,9 +66,19 @@
   background: #1b241e;
   border-radius: 4px;
   padding-left: 20px;
-  height: 40px;
-  width: 30%;
+  height: 56px;
+  width: 25%;
   margin: 20px 0;
+  font-size: 20px;
   color: #ffffff;
+  border: none;
+}
+
+.create-account {
+  width: 25%;
+  height: 48px;
+  margin-bottom: 20px;
+  background: #2ebb55;
+  border-radius: 4px;
   border: none;
 }
