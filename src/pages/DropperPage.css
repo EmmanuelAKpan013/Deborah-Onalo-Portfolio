@@ -86,7 +86,24 @@
 .dropper_expediture-package-dilivered {
   display: flex;
   justify-content: space-between;
-  width: 23%;
-  margin: 30px 0;
+  width: 27%;
+  margin: 10px 0;
+  padding: 40px 0;
+  font-size: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
   border: 1px solid red;
+}
+
+.dropper_expiditure_span {
+  color: #2c843c;
+}
+
+.dropper_ex_text {
+  font-family: "Circular Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
 }

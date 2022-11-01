@@ -49,12 +49,14 @@ function DropperPage() {
         <button className="create-account">Create a free account</button>
         <div className="dropper_expediture-package-dilivered">
           <p>
-            24/7 <br />
-            Expenditure
+            24<span className="dropper_expiditure_span">/</span>7
+            <br />
+            <span className="dropper_ex_text">Expenditure</span>
           </p>
           <p>
-            5M+ <br />
-            Packages Delivered
+            5M<span className="dropper_expiditure_span">+</span>
+            <br />
+            <span className="dropper_ex_text">Packages Delivered</span>
           </p>
         </div>
       </div>
