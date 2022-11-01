@@ -45,3 +45,13 @@
   background: #1a1a1a;
   height: 400px;
 }
+
+.dropper_hero_section p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+  color: #ffffff;
+  border: 1px solid red;
+}
