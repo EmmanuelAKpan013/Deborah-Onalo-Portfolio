@@ -1,6 +1,6 @@
 import "./DropperPage.css";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import DropperLogo from "../images/dropper/Dropper Assets Main 2.png";
 
 function DropperPage() {
@@ -60,6 +60,20 @@ function DropperPage() {
           </p>
         </div>
       </div>
+      {/* <div className="dropper_green_slant-container">
+        <div className="dropper_green_slant">
+          <p>
+            SIMPLIFIED SHIPPING INFRASTRUCTURE * SIMPLIFIED SHIPPING
+            INFRASTRUCTURE
+          </p>
+        </div>
+        <div>
+          <p>
+            SIMPLIFIED SHIPPING INFRASTRUCTURE * SIMPLIFIED SHIPPING
+            INFRASTRUCTURE
+          </p>
+        </div>
+      </div> */}
     </motion.div>
   );
 }
