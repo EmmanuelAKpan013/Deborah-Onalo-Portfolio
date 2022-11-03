@@ -60,7 +60,7 @@ function DropperPage() {
           </p>
         </div>
       </div>
-      {/* <div className="dropper_green_slant-container">
+      <div className="dropper_green_slant-container">
         <div className="dropper_green_slant">
           <p>
             SIMPLIFIED SHIPPING INFRASTRUCTURE * SIMPLIFIED SHIPPING
@@ -73,7 +73,7 @@ function DropperPage() {
             INFRASTRUCTURE
           </p>
         </div>
-      </div> */}
+      </div>
     </motion.div>
   );
 }
